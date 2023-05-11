@@ -33,8 +33,8 @@ Postdoctoral Associate, University of Maryland
 
 <p>I am currently a Postdoc associate at UMD 
 with Prof. <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a>
-and have visited KTH Royal Institute of Technology, Stockholm, 
-as a postdoctoral fellow with Prof.
+and have been at KTH Royal Institute of Technology, Stockholm, 
+as a visiting postdoctoral fellow with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
 
 <p>
