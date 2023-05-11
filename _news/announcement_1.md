@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: November 2021
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+
+<b> Patent No.: US 11,188,617 B2 has been issued </b>
+<br> <font size="1">Title: "Method and network node for internet-of-things (IoT) feature selection for storage and computation".</font> 

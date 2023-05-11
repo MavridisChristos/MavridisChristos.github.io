@@ -1,58 +1,141 @@
 ---
 layout: page
-title: projects
+title: Research
+stitle: Selected Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description:
 nav: true
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
 <div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
+
+
+<img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button">
+
+<h2 class="category">Progressive Learning & System Identification</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "tnnls22" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
   </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
 </div>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "cdc23" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<h2 class="category">Risk-Sensitive Reinforcement Learning</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "jair23" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<h2 class="category">Interaction Laws of Networked Systems</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "tcns22" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "cdc21" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "gamesec20" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<h2 class="category">Human-Robot Interaction & Collaboration</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "iros20" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "cdc19" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "ecc18" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<h2 class="category">Intelligent Transportation</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "itsc21" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+
+<h2 class="category">Recursive Neural Networks</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "nengo" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
