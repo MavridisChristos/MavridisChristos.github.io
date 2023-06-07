@@ -11,8 +11,9 @@ nav_order: 2
 <div class="projects">
 
 
-
+<!--
 <img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button">
+-->
 
 <h2 class="category">Progressive Learning & System Identification</h2>
 

@@ -38,7 +38,7 @@ as a visiting postdoctoral fellow with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
 
 <p>
-I got my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, MD, in 2021.
+I received my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, MD, in 2021.
 Prior to that, I got my Diploma from the National Technical University of Athens, Greece, 
 where I worked at the Control Systems Lab (CSL) with Prof.
 <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas Kyriakopoulos</a>. 
@@ -46,10 +46,7 @@ where I worked at the Control Systems Lab (CSL) with Prof.
 
 <h4> Research Interests </h4>
 
-<p> Systems and Control Theory, 
-  Stochastic Optimization, Multi-Agent Systems, System Identification and Learning Theory, 
-  Optimal Control, Reinforcement Learning, 
-  Information Theory, Signal Processing, Robotics.
+<p> Control Theory, System Identification and Learning Theory, Optimization, Multi-Agent Systems, Robotics.
   </p>
 
 <hr>
