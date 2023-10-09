@@ -23,16 +23,16 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoctoral Associate
-      institution: University of Maryland and Institute for Systems Research
-      year: 2022-now
-      description:
-        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a>
-    - title: Visiting Postdoctoral Fellow
+    - title: Postdoc
       institution: Division of Decision and Control Systems, KTH Royal Institute of Technology
-      year: 2022
+      year: 2023 - now
       description:
         - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>
+    - title: Postdoc
+      institution: University of Maryland and Institute for Systems Research
+      year: 2022-2023
+      description:
+        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a>
     - title: Research Scientist Intern
       institution: System Sciences Lab, Palo Alto Research Center (PARC)
       year: 2019

@@ -9,11 +9,11 @@ profile:
   image: profile_pic.png
   image_circular: true # crops the image to make it circular
   address: >
-    <p>2255 A.V. Williams Building,</p>
-    <p>University of Maryland,</p>
-    <p>College Park, MD 20742, USA</p>
-    <p>(+1) 301-405-7933</p>
-    <p>mavridis (at) umd.edu</p>
+    <p>Decision and Control Systems,</p>
+    <p>KTH Royal Institute of Technology,</p>
+    <p>Malvinas Väg 10, 114 28, Stockholm</p>
+    <p><font size="3"> mavridis (at) kth.se </font></p>
+    <p><font size="3"> mavridis (at) umd.edu </font></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -22,7 +22,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p> <font size=4rem face="monospace" >  
-Postdoctoral Associate, University of Maryland
+Postdoc, KTH Royal Institute of Technology
 </font>
 
 <hr>
@@ -31,14 +31,12 @@ Postdoctoral Associate, University of Maryland
 
  
 
-<p>I am currently a Postdoc associate at UMD 
-with Prof. <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a>
-and have been at KTH Royal Institute of Technology, Stockholm, 
-as a visiting postdoctoral fellow with Prof.
+<p>I am currently a Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
 
 <p>
-I received my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, MD, in 2021.
+I received my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, MD, in 2021,
+working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a> .
 Prior to that, I got my Diploma from the National Technical University of Athens, Greece, 
 where I worked at the Control Systems Lab (CSL) with Prof.
 <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas Kyriakopoulos</a>. 
