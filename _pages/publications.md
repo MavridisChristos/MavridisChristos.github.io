@@ -13,7 +13,7 @@ nav_order: 1
 ---
 
 <span style="font-family:monospace;">
-Publications, Book Chapters, and Patents -- (<a href="https://scholar.google.com/citations?user=yOnghb8AAAAJ&hl" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a>)
+Publications, Book Chapters, and Patents -- (<a href="https://scholar.google.com/citations?user=msjXTH4AAAAJ&hl=en" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a>)
 </span>
 
 <hr>
