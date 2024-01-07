@@ -49,6 +49,17 @@
       description:
         - Advisor -- <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas J. Kyriakopoulos</a>
 
+- title: Funded Projects
+  type: time_table
+  contents:
+    - title: 2-year Industrial Postdoctoral Project (SSF IPD)  [2.2 MSEK]
+      institution: Funded from the Swedish Foundation for Strategic Research and Ericsson AB 
+      year: 2024
+      description:
+        - PI -- Christos Mavridis
+        - Project Scope -- "Hierarchical Communication-Aware Motion Planning"
+        - Collaboration with KTH Royal Institute of Technology and Ericsson AB
+
 
 - title: Invited Talks
   type: time_table

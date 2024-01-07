@@ -35,7 +35,7 @@ Postdoc, KTH Royal Institute of Technology
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
 
 <p>
-I received my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, MD, in 2021,
+I received my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, in 2021,
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a> .
 Prior to that, I got my Diploma from the National Technical University of Athens, Greece, 
 where I worked at the Control Systems Lab (CSL) with Prof.
