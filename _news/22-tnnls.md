@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<b> IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</b>
-<br> <font size="1">Paper Published: "Online Deterministic Annealing for Classification and Clustering".</font> 
+<b> <font color="purple"> IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</font></b>
+<br> <font size="1" color="purple">Paper Published: "Online Deterministic Annealing for Classification and Clustering".</font> 

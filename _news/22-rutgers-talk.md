@@ -6,6 +6,6 @@ related_posts: false
 ---
 
 
-<b> Invited talk at ECE, Rutgers </b>
-<br> <font size="1">Title: "Dynamic Learning for Intelligent Autonomous Systems".</font> 
+<b> <font color="blue"> Invited talk at ECE, Rutgers </font></b>
+<br> <font size="1" color="blue">Title: "Dynamic Learning for Intelligent Autonomous Systems".</font> 
 

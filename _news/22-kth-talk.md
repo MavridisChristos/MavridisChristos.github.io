@@ -6,6 +6,6 @@ related_posts: false
 ---
 
 
-<b> Invited talk at KTH, Stockholm </b>
-<br> <font size="1">Title: "Progressive Learning for Inference and Control in Cyber-Physical Systems"</font> 
+<b> <font color="blue"> Invited talk at KTH, Stockholm </font></b>
+<br> <font size="1" color="blue">Title: "Progressive Learning for Inference and Control in Cyber-Physical Systems"</font> 
 

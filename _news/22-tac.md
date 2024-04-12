@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 
-<b> IEEE Transactions of Automatic Control (TAC) </b>
-<br> <font size="1">Paper Published: "Annealing Optimization for Progressive Learning with Stochastic Approximation".</font> 
+<b> <font color="purple"> IEEE Transactions of Automatic Control (TAC) </font></b>
+<br> <font size="1" color="purple">Paper Published: "Annealing Optimization for Progressive Learning with Stochastic Approximation".</font> 
