@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 
-<b> <font color="purple"> IEEE Transactions on Control of Network Systems (TCNS) </font> </b>
-<br> <font size="1" color="purple">Paper Published: "Learning Swarm Interaction Dynamics from Density Evolution".</font> 
+<b> <a target="_blank" rel="noopener noreferrer" href="https://mavridischristos.github.io/publications/"> IEEE Transactions on Control of Network Systems (TCNS) </a> </b>
+<br> <font size="1"> Paper Published: "Learning Swarm Interaction Dynamics from Density Evolution".</font> 

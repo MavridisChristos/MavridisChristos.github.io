@@ -10,6 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>Decision and Control Systems,</p>
+    <p>Electrical Engineering and Computer Science,</p>
     <p>KTH Royal Institute of Technology,</p>
     <p>Malvinas Väg 10, 114 28, Stockholm</p>
     <p><font size="3"> mavridis (at) kth.se </font></p>
@@ -27,24 +28,30 @@ Postdoc, KTH Royal Institute of Technology
 
 <hr>
 
-<h4> About </h4>
+<h2> About </h2>
 
- 
+ <!-- <br> -->
 
 <p>I am currently a Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
 
 <p>
 I received my Ph.D. in electrical and computer engineering from the University of Maryland, College Park, in 2021,
-working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a> .
+working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> .
 Prior to that, I got my Diploma from the National Technical University of Athens, Greece, 
 where I worked at the Control Systems Lab (CSL) with Prof.
 <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas Kyriakopoulos</a>. 
 </p> 
 
-<h4> Research Interests </h4>
+
+<br>
+
+
+<h2> Research Interests </h2>
+
+<!-- <br> -->
 
 <p> Control Theory, System Identification and Learning Theory, Optimization, Multi-Agent Systems, Robotics.
   </p>
 
-<hr>
+<br>

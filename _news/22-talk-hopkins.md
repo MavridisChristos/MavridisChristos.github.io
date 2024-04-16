@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 
-<b> <font color="blue"> Invited talk at MINDS, Johns Hopkins </font></b>
-<br> <font size="1" color="blue">Title: "Online Deterministic Annealing: Learning for Cyber-Physical Systems"</font> 
+<b> <a target="_blank" rel="noopener noreferrer" href="https://mavridischristos.github.io/cv/"> Invited talk at MINDS, Johns Hopkins </a></b>
+<br> <font size="1">Title: "Online Deterministic Annealing: Learning for Cyber-Physical Systems"</font> 

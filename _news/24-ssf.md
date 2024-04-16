@@ -6,6 +6,6 @@ related_posts: false
 ---
 
 
-<b> <font color="purple"> Starting 2-year Project funded from SSF (Swedish Foundation for Strategic Research)</font> </b>
-<br> <font size="1" color="purple"> PI: Christos Mavridis. Collaboration with KTH and Ericsson AB.</font>
-<br> <font size="1" color="purple"> Topic: "Hierarchical Communication-Aware Motion Planning"</font>
+<b> <a target="_blank" rel="noopener noreferrer" href="https://mavridischristos.github.io/projects/"> Starting 2-year Project funded from SSF (Swedish Foundation for Strategic Research)</a> </b>
+<br> <font size="1"> PI: Christos Mavridis. Collaboration with KTH and Ericsson AB.</font>
+<br> <font size="1"> Topic: "Hierarchical Communication-Aware Motion Planning"</font>

@@ -32,7 +32,7 @@
       institution: University of Maryland and Institute for Systems Research
       year: 2022-2023
       description:
-        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://johnbaras.com/"> John S. Baras</a>
+        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a>
     - title: Research Scientist Intern
       institution: System Sciences Lab, Palo Alto Research Center (PARC)
       year: 2019
@@ -64,6 +64,9 @@
 - title: Invited Talks
   type: time_table
   contents:
+    - year: 2024
+      items: 
+        - <b>Uppsala University, Sweden</b>, Real-Time Hybrid System Identification in Control and CPS Security.
     - year: 2023
       items: 
         - <b>IMDEA Software, Madrid</b>, Progressive Learning for Inference, Verification, and Control of Cyber-Physical Systems.
@@ -78,6 +81,20 @@
       items: 
         - <b>Maryland Robotics Center, UMD</b>, Learning Latent Representations and Intrinsic Laws of Complex Systems.
 
+- title: Professional Service
+  type: time_table
+  contents:
+    - year: 2024
+      items: 
+        - Organizer, 'ACC 2024 Student Workshop on Security and Privacy of the Next-Generation Cyber-Physical Systems', IEEE Technical Committee on Security and Privacy.
+        - Co-Chair, 'Identification I', IEEE ECC 2024
+    - year: 2023
+      items: 
+        - NSF Proposal Review Panellist, ENG/ECCS, 2023.
+    - year: 2022
+      items: 
+        - Co-Chair, 'Learning', IEEE CDC 2022
+        - Co-Chair, 'Intelligent Data Processing From Sensors in Control and Decision Support Systems', MED 2022
 
 - title: Honors and Awards
   type: time_table
@@ -100,16 +117,12 @@
         - A. James Clark School of Engineering Distinguished Graduate Fellowship [$15,000], UMD
     - year: 2010
       items:
-        - Great Moment for Education student excellence award [$1,000], EFG Eurobank, Greece 
+        - Great Moment for Education student excellence award [1,000&#x20AC], EFG Eurobank, Greece 
 
-- title: Professional Service
+- title: Patents
   type: time_table
   contents:
-    - year: 2023
+    - year: 2019
       items: 
-        - NSF Proposal Review Panellist, ENG/ECCS, 2023.
-    - year: 2022
-      items: 
-        - Co-Chair, 'Learning', IEEE CDC 2022
-        - Co-Chair, 'Intelligent Data Processing From Sensors in Control and Decision Support Systems', MED 2022
-
+        - Patent No. US 11,188,617 B2; Method and network node for internet-of-things (IoT) feature selection for storage and computation; Nokia Technologies Oy.
+ 

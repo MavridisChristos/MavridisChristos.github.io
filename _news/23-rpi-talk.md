@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<b> <font color="blue"> Invited talk at ECE, RPI </font></b>
-<br> <font size="1" color="blue">Title: "Progressive Learning for Inference and Control of Cyber-Physical Systems"</font> 
+<b> <a target="_blank" rel="noopener noreferrer" href="https://mavridischristos.github.io/cv/"> Invited talk at ECE, RPI </a></b>
+<br> <font size="1">Title: "Progressive Learning for Inference and Control of Cyber-Physical Systems"</font> 

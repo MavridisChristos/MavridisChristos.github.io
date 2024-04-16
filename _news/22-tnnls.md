@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-<b> <font color="purple"> IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</font></b>
-<br> <font size="1" color="purple">Paper Published: "Online Deterministic Annealing for Classification and Clustering".</font> 
+<b> <a target="_blank" rel="noopener noreferrer" href="https://mavridischristos.github.io/publications/"> IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</a></b>
+<br> <font size="1">Paper Published: "Online Deterministic Annealing for Classification and Clustering".</font> 

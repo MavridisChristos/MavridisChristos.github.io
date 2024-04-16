@@ -6,5 +6,5 @@ related_posts: false
 ---
 
 
-<b> <font color="purple"> IEEE Transactions of Automatic Control (TAC) </font></b>
-<br> <font size="1" color="purple">Paper Published: "Annealing Optimization for Progressive Learning with Stochastic Approximation".</font> 
+<b> <a target="_blank" rel="noopener noreferrer" href="https://mavridischristos.github.io/publications/"> IEEE Transactions of Automatic Control (TAC) </a></b>
+<br> <font size="1"> Paper Published: "Annealing Optimization for Progressive Learning with Stochastic Approximation".</font> 
