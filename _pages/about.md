@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
   address: >
     <p>Decision and Control Systems,</p>
-    <p>Electrical Engineering and Computer Science,</p>
+    <p>Electrical Eng. and Comp. Science,</p>
     <p>KTH Royal Institute of Technology,</p>
     <p>Malvinas Väg 10, 114 28, Stockholm</p>
     <p><font size="3"> mavridis (at) kth.se </font></p>
