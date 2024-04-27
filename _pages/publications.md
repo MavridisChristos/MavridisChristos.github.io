@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-stitle: Selected Publications
+stitle: Publications
 description: 
 jyears: [2023,2022,2021]
 cyears: [2023,2022,2021,2020,2019,2018]
@@ -13,7 +13,8 @@ nav_order: 1
 ---
 
 <span style="font-family:monospace;">
-Publications, Book Chapters, and Patents -- (<a href="https://scholar.google.com/citations?user=msjXTH4AAAAJ&hl=en" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a>)
+Peer-Reviewed Publications, Book Chapters, and Patents 
+<br> (<a href="https://scholar.google.com/citations?user=msjXTH4AAAAJ&hl=en" title="Google Scholar">Google Scholar <i class="ai ai-google-scholar"></i></a>)
 </span>
 
 <hr>
@@ -29,8 +30,9 @@ Publications, Book Chapters, and Patents -- (<a href="https://scholar.google.com
 
 </div>
 
+
 <hr>
-## <span style="font-family:monospace;">Peer-Reviewed Conference Papers</span>
+## <span style="font-family:monospace;">Conference Papers</span>
 
 <!-- _pages/publications.md -->
 <div class="publications">

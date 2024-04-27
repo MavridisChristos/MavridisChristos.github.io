@@ -6,21 +6,26 @@
       </div>      
       <div class="row g-0">
         {%- if project.img -%}
-        <div class="card-img col-md-5">
-          {% include figure.html path=project.img alt="project thumbnail" urllink=project.urllink%}
+        <div class="card-img col-md-4">
+          {% include figure.html path=project.img alt="project thumbnail" urllink=project.urllink zoomable=true %}
         </div>
         {%- endif -%}
         <div class="card-des col-md-7">
 
             <ul>
             <li>{{ project.abstract }}</li>
+            {%- if project.details -%}
             <li>{{ project.details }}</li>
+            {%- endif -%}
+            {%- if project.keywords -%}
             <li>{{ project.keywords }}</li>
+            {%- endif -%}
             <li>{{ project.links }}</li>
             </ul> 
             
           
         </div>
+        
       </div>
     </div>
   

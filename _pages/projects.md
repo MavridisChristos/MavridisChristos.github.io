@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Projects
 stitle: Selected Projects
 permalink: /projects/
 description:
@@ -15,47 +15,58 @@ nav_order: 2
 <img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button">
 -->
 
-<h2 class="category">Progressive Learning & System Identification</h2>
+<h2 class="category">Hybrid Systems</h2>
 
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "tnnls22" -%}
+  {%- assign projects = site.projects | where: "category", "hybrid" -%}
+  {%- for project in projects -%}
+    {% include projects.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+
+<h2 class="category">Cyber-Physical Systems Security</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "cps" -%}
   {%- for project in projects -%}
     {% include projects_left.html %}
   {%- endfor %}
   </div>
 </div>
 
+
+
+<h2 class="category">Communication-Aware Control</h2>
+
+Funded by the Swedish Foundation for Strategic Research and Ericsson AB.
+
+
+<br>
+<br>
+
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "cdc23" -%}
+  {%- assign projects = site.projects | where: "category", "camp" -%}
   {%- for project in projects -%}
     {% include projects_left.html %}
   {%- endfor %}
   </div>
 </div>
 
-<h2 class="category">Risk-Sensitive Reinforcement Learning</h2>
 
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "jair23" -%}
-  {%- for project in projects -%}
-    {% include projects_left.html %}
-  {%- endfor %}
-  </div>
-</div>
 
-<h2 class="category">Interaction Laws of Networked Systems</h2>
 
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "tcns22" -%}
-  {%- for project in projects -%}
-    {% include projects_left.html %}
-  {%- endfor %}
-  </div>
-</div>
+
+
+<br><br><br>
+
+<h1 class="category">Past Projects</h1>
+<hr>
+
 
 
 <div class="container">
@@ -110,18 +121,6 @@ nav_order: 2
 <div class="container">
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "itsc21" -%}
-  {%- for project in projects -%}
-    {% include projects_left.html %}
-  {%- endfor %}
-  </div>
-</div>
-
-
-<h2 class="category">Recursive Neural Networks</h2>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "nengo" -%}
   {%- for project in projects -%}
     {% include projects_left.html %}
   {%- endfor %}

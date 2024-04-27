@@ -14,7 +14,7 @@
     {% endif %}
     
     {% if include.urllink %}
-    <a href="{{ include.urllink }}">
+    <!-- <a href="{{ include.urllink }}"> -->
     <!-- Fallback to the original file -->
     <img 
       src="{{ include.path | relative_url }}"
@@ -30,7 +30,7 @@
       {% if include.zoomable %}data-zoomable{% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();" 
     />
-    </a>
+    <!-- </a> -->
     {% else %}
     <!-- Fallback to the original file -->
     <img 
@@ -46,9 +46,10 @@
       {% if include.title %}title="{{ include.title }}"{% endif %} 
       {% if include.zoomable %}data-zoomable{% endif %}
       onerror="this.onerror=null; $('.responsive-img-srcset').remove();" 
-    onclick="window.open(this.src)" role="button" />
+    />
     {% endif %}
     
+    <!-- onclick="window.open(this.src)" role="button"  -->
 
   </picture>
 
