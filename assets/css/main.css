@@ -513,9 +513,9 @@ footer.sticky-bottom {
   color: var(--global-theme-color);
 }
 .projects .card img {
-  width: 18.5rem;
+  width: 14.5rem;
   margin-bottom: 1rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
   margin-right: 1rem;
   margin-top: 1rem;
 }
