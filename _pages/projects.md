@@ -42,7 +42,7 @@ nav_order: 2
 
 <h2 class="category">Communication-Aware Control</h2>
 
-Funded by the Swedish Foundation for Strategic Research and Ericsson AB.
+Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
 
 
 <br>
@@ -87,13 +87,18 @@ Funded by the Swedish Foundation for Strategic Research and Ericsson AB.
   </div>
 </div>
 
-<h2 class="category">Human-Robot Interaction & Collaboration</h2>
+
+
+
+
+
+<h2 class="category">Robotics</h2>
 
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "iros20" -%}
+  {%- assign projects = site.projects | where: "category", "hrc" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects.html %}
   {%- endfor %}
   </div>
 </div>
@@ -107,14 +112,8 @@ Funded by the Swedish Foundation for Strategic Research and Ericsson AB.
   </div>
 </div>
 
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "ecc18" -%}
-  {%- for project in projects -%}
-    {% include projects_left.html %}
-  {%- endfor %}
-  </div>
-</div>
+
+
 
 <h2 class="category">Intelligent Transportation</h2>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Safe robot navigation with spatial and temporal constraints
-abstract: <b> Description:</b> Robot Navigation Under MITL Constraints Using Time-Dependent Vector Field Based Control.
-details: <b> Details:</b> Translating rudimental MITL formulas to control problems in the state space. Automatic design of a real-time controller as a hybrid automaton based on appropriately defined time-dependent vector fields.
-keywords: <b> Keywords:</b> Safe Robot Navigation, Temporal Logic, Prescribed Performance Control.
+title: Safe Robot Navigation 
+abstract: <b>Safe robot navigation under spatial and temporal constraints:</b> Construction of hybrid automaton based on MITL constraints using time-dependent vector field-based control.
+details: 
+keywords: 
 links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9028890">(CDC19)</a> 
 img: assets/giff/mavridis_cdc2019_video.gif
 urllink: 
