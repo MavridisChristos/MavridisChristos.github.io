@@ -65,7 +65,6 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
 <br><br><br>
 
 <h1 class="category">Past Projects</h1>
-<hr>
 
 
 
