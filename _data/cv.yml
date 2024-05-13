@@ -64,9 +64,9 @@
 - title: Invited Talks
   type: time_table
   contents:
-    # - year: 2024
-    #   items: 
-    #     - <b>Uppsala University, Sweden</b>, Real-Time Hybrid System Identification in Control and CPS Security.
+    - year: 2024
+      items: 
+        - <b>Uppsala University, Sweden</b>, Real-Time Hybrid System Identification in Control and CPS Security.
     - year: 2023
       items: 
         - <b>IMDEA Software, Madrid</b>, Progressive Learning for Inference, Verification, and Control of Cyber-Physical Systems.
