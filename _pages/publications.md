@@ -4,8 +4,8 @@ permalink: /publications/
 title: Publications
 stitle: Publications
 description: 
-jyears: [2023,2022,2021]
-cyears: [2023,2022,2021,2020,2019,2018]
+jyears: [2024,2023]
+cyears: [2024,2023,2022,2021,2020,2019,2018]
 byears: [2023]
 pyears: [2019]
 nav: true

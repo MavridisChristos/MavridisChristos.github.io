@@ -32,15 +32,23 @@ Postdoc, KTH Royal Institute of Technology
 
  <!-- <br> -->
 
-<p>Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
+<p>
+<!-- <div style="text-align: justify"> -->
+Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
+<!-- </div> -->
+</p>
 
 <p>
+<!-- <div style="text-align: justify"> -->
+<!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
+<a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
 Received my Ph.D. in Electrical and Computer Engineering from the University of Maryland, College Park, in 2021,
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a>.
 Got my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, 
 working at the Control Systems Lab (CSL) with Prof.
 <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas Kyriakopoulos</a>. 
+<!-- </div> -->
 </p> 
 
 
@@ -51,7 +59,7 @@ working at the Control Systems Lab (CSL) with Prof.
 
 <!-- <br> -->
 
-<p> <strong>Theory:</strong> Control Theory, System Identification, Learning Theory, Optimization, Multi-Agent Systems
+<p> <strong>Theory:</strong> Control Theory, System Identification, Learning Theory, Optimization, Multi-Agent Systems.
 <br> <strong>Applications:</strong> Hybrid Systems, CPS Securiy, Communication-aware Control, AI Decision Making, Robotics.</p>
 
 <br>

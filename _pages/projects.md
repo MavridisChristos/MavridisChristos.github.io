@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-stitle: Selected Projects
+stitle: Current Projects
 permalink: /projects/
 description:
 nav: true
@@ -64,7 +64,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
 
 <br><br><br>
 
-<h1 class="category">Past Projects</h1>
+<h1 class="category">Selected Past Projects</h1>
 
 
 
