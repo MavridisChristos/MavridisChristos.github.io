@@ -34,7 +34,7 @@ Postdoc, KTH Royal Institute of Technology
 
 <p>
 <!-- <div style="text-align: justify"> -->
-Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
+Postdoc at KTH Royal Institute of Technology, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
 <!-- </div> -->
 </p>
