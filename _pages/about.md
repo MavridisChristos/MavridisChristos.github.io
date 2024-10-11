@@ -62,4 +62,15 @@ working at the Control Systems Lab (CSL) with Prof.
 <p> <strong>Theory:</strong> Control Theory, System Identification, Learning Theory, Optimization, Multi-Agent Systems.
 <br> <strong>Applications:</strong> Hybrid Systems, CPS Securiy, Communication-aware Control, AI Decision Making, Robotics.</p>
 
+<!-- <br> -->
+
+<hr>
+
+<h3> MSc Thesis Project Available </h3>
+
+<!-- <br> -->
+<p> Looking for a motivated candidate for an MSc thesis project on <strong>“AI Decision Making for Networked Robotics”</strong> with <a target="_blank" rel="noopener noreferrer" href="https://www.kth.se/is/dcs/division-of-decision-and-control-systems-1.788078"> KTH DCS</a> and the Cyber-Physical systems team from Ericsson Research. For more information please visit  
+<a target="_blank" rel="noopener noreferrer" href="https://www.kth.se/social/group/rpl-thesis-proposals/page/master-thesis-proposal-external/"> KTH RPL Thesis Proposals</a>.</p>
+<hr>
+
 <br>
