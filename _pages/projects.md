@@ -15,29 +15,26 @@ nav_order: 2
 <img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button">
 -->
 
-<h2 class="category">Hybrid Systems</h2>
+<h2 class="category">Learning with Hybrid Systems</h2>
+
 
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "hybrid" -%}
+  {%- assign projects = site.projects | where: "category", "hybrid-si" -%}
   {%- for project in projects -%}
     {% include projects.html %}
   {%- endfor %}
   </div>
 </div>
 
-
-<h2 class="category">Cyber-Physical Systems Security</h2>
-
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "cps" -%}
+  {%- assign projects = site.projects | where: "category", "hybrid-learning" -%}
   {%- for project in projects -%}
     {% include projects_left.html %}
   {%- endfor %}
   </div>
 </div>
-
 
 
 <h2 class="category">Communication-Aware Control</h2>
@@ -51,6 +48,20 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
 <div class="container">
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "camp" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+
+
+
+<h2 class="category">Cyber-Physical Systems Security</h2>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "cps" -%}
   {%- for project in projects -%}
     {% include projects_left.html %}
   {%- endfor %}
