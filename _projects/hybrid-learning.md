@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learning with hybrid systems
-abstract: <b>Learning with hybrid systems</b> can enhance robustness and explainability.
+abstract: <b>Constructing hybrid learning systems</b> with homotopy optimization enhances robustness and explainability for inference and control of Cyber-Physical-Human Systems.
 details:
 keywords:
 links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2212.08189">(ArXiv24)</a> <a target="_blank" rel="noopener noreferrer" href="">(ECML-PKDD23)</a>

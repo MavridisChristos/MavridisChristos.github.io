@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Real-Time Hybrid System Identification
-abstract: <b>Real-time hybrid system identification</b> based on two-timescale adaptive algorithms and principles from online deterministic annealing.
+abstract: <b>Real-time hybrid system identification</b> based on two-timescale adaptive algorithms and principles from homotopy optimization and Online Deterministic Annealing (ODA).
 details: 
 keywords: 
 links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2408.01730">(ArXiv24)</a> <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10590839">(ECC24)</a> <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/10383998">(CDC23)</a> <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/10002308">(TAC22)</a> <a target="_blank" rel="noopener noreferrer" href="https://github.com/MavridisChristos/OnlineDeterministicAnnealing">(GitHub)</a> 

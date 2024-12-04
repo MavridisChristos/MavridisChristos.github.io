@@ -20,18 +20,18 @@ nav_order: 2
 
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "hybrid-si" -%}
+  {%- assign projects = site.projects | where: "category", "hybrid-learning" -%}
   {%- for project in projects -%}
-    {% include projects.html %}
+    {% include projects_left.html %}
   {%- endfor %}
   </div>
 </div>
 
 <div class="container">
   <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "hybrid-learning" -%}
+  {%- assign projects = site.projects | where: "category", "hybrid-si" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects.html %}
   {%- endfor %}
   </div>
 </div>
