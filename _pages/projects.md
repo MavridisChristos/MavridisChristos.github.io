@@ -15,7 +15,7 @@ nav_order: 2
 <img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button">
 -->
 
-<h2 class="category">Learning with Hybrid Systems</h2>
+<h2 class="category">Hybrid Systems</h2>
 
 
 <div class="container">
