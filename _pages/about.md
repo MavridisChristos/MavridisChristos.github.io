@@ -62,7 +62,7 @@ working at the Control Systems Lab (CSL) with Prof.
 Focus on the analysis of learning algorithms using principles from hybrid systems theory, homotopy optimization and bifurcation theory, robust and risk-sensitive control, group-invariant and hierarchical topologies, knowledge representation and reasoning.
 
 <p> <strong>Fundamental Research:</strong> Optimization, Learning Theory, Hybrid Systems, System Identification,  Control Theory, Multi-Agent Systems.
-<br> <strong>Application Fields:</strong> Explainable AI, Communication-Aware Robotics, Human-Robot Interaction, Intelligent Transportation, Biomedical Engineering, Smart Cities, Smart Manufacturing.</p>
+<br> <strong>Application Fields:</strong> Explainable AI & Learning-based Control, Communication-aware Robotics & Human-Robot Interaction, Risk-Sensitive Reinforcement Learning, Swarm Dynamics Identification, CPS Security in Games, Intelligent Transportation, Smart Cities.</p>
 
 <!-- <br> -->
 

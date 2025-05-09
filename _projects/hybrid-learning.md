@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Learning with hybrid systems
+title: Learning with Hybrid Systems
 abstract: <b>Constructing hybrid learning systems</b> using homotopy optimization methods to enhance robustness and explainability for inference and control of Cyber-Physical-Human Systems.
 details:
 keywords:
