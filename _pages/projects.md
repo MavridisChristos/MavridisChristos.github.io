@@ -57,6 +57,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
 
 
 
+
 <h2 class="category">Cyber-Physical Systems Security</h2>
 
 <div class="container">
@@ -79,23 +80,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
 
 
 
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "cdc21" -%}
-  {%- for project in projects -%}
-    {% include projects_left.html %}
-  {%- endfor %}
-  </div>
-</div>
 
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "gamesec20" -%}
-  {%- for project in projects -%}
-    {% include projects_left.html %}
-  {%- endfor %}
-  </div>
-</div>
 
 
 
@@ -136,7 +121,34 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   </div>
 </div>
 
+<h2 class="category">Swarm Dynamics</h2>
 
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "tcns22" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "cdc21" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
+
+<div class="container">
+  <div class="row row-cols-0">
+  {%- assign projects = site.projects | where: "category", "gamesec20" -%}
+  {%- for project in projects -%}
+    {% include projects_left.html %}
+  {%- endfor %}
+  </div>
+</div>
 
 
 

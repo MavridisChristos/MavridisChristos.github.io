@@ -4,7 +4,7 @@ title: CPS Security in Dynamic Games under Cognitive Hierarchy
 abstract: <b>CPS attack identification</b> based on principles of behavioral game theory and online deterministic annealing.
 details: <b>Moving-target defense</b> for CPS under Wireless Communication through relaxed control.
 keywords: <b>Identification deception</b> in CPS based on switching control.
-links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="https://www.sciencedirect.com/science/article/pii/S2405896323012314?via%3Dihub">(IFAC23)</a> (ECC24) (CDC24)
+links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="/assets/pdf/mavridis2023attack.pdf">(IFAC23)</a> <a target="_blank" rel="noopener noreferrer" href="/assets/pdf/kanellopoulos2024amoving.pdf">(ECC24)</a> <a target="_blank" rel="noopener noreferrer" href="/assets/pdf/mavridis2024switching.pdf">(CDC24)</a>  
 img: assets/giff/mavridis_ecc24_image.png
 img2: 
 urllink: 

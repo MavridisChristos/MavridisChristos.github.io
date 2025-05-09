@@ -14,7 +14,6 @@ profile:
     <p>KTH Royal Institute of Technology,</p>
     <p>Malvinas Väg 10, 114 28, Stockholm</p>
     <p><font size="3"> mavridis (at) kth.se </font></p>
-    <p><font size="3"> mavridis (at) umd.edu </font></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
