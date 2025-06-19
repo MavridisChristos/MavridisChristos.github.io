@@ -28,6 +28,11 @@
       year: 2023 - now
       description:
         - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>
+    - title: Research Affiliate
+      institution: Ericsson Research, Stockholm
+      year: 2024 - 2025
+      description:
+        - Joint Research Project (SSF IPD23-0019)
     - title: Postdoc
       institution: University of Maryland and Institute for Systems Research
       year: 2022-2023
@@ -52,7 +57,7 @@
 - title: Funded Projects
   type: time_table
   contents:
-    - title: 2-year Industrial Postdoctoral Project (SSF IPD)  [2.2 MSEK]
+    - title: SSF IPD23-0019  [2-year, 2.2 MSEK]
       institution: Funded from the Swedish Foundation for Strategic Research and Ericsson AB 
       year: 2024
       description:
@@ -64,6 +69,11 @@
 - title: Invited Talks
   type: time_table
   contents:
+
+    - year: 2025
+      items:
+        - <b>Tutorial Session, European Control Conference 2025</b>, Homotopy Optimization and Hybrid Learning for Inference and Control. 
+        - <b>Politecnico di Milano (PoliMi)</b>, Real-Time Hybrid System Identification and Learning-based Control. 
     - year: 2024
       items:
         - <b>ATHENA Research Center, Greece</b>, Real-time Hybrid System Identification for CPS Security and Control. 
