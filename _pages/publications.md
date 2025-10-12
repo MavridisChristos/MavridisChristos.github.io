@@ -18,7 +18,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 </span>
 
 <hr>
-## <span style="font-family:monospace;">Journal Papers</span>
+## <span style="font-family:monospace;">Journal Publications</span>
 
 <!-- _pages/publications.md -->
 <div class="publications">
@@ -32,7 +32,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 
 
 <hr>
-## <span style="font-family:monospace;">Conference Papers</span>
+## <span style="font-family:monospace;">Conference Publications</span>
 
 <!-- _pages/publications.md -->
 <div class="publications">
