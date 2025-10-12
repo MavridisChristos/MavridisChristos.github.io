@@ -2,11 +2,11 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/MavridisChristos/OnlineDeterministicAnnealing">Online Deterministic Annealing</a>
+    - title: <a href="https://github.com/MavridisChristos/OnlineDeterministicAnnealing">Online Deterministic Annealing</a> (pip install online-deterministic-annealing)
       year: ODA
       description: A hierarchical general-purpose learning architecture designed to meet the needs of applications in which computational resources are limited, and robustness and interpretability are prioritized. Appropriate for System Identification, Supervised, Unsupervised, and Reinforcement Learning.
     - title: <a href="https://github.com/MavridisChristos/RiskSensitiveRL">Risk-Sensitive Reinforcement Learning</a>
-      year: R-AC
+      year: RSRL
       description: Model-free (Actor-Critic and REINFORCE) algorithms for Risk-Sensitive Reinforcement Learning using exponential criteria.
     - title: <a href="https://github.com/MavridisChristos/BiosignalAcquisition">Real-time EEG signal acquisition and processing</a>
       year: EEG
