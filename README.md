@@ -1,6 +1,6 @@
 ```bash
 bundle exec jekyll serve --lsi
-'''
+```
 
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
