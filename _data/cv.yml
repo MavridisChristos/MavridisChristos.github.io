@@ -78,12 +78,17 @@
   type: time_table
   contents:
 
+    - year: 2026
+      items:
+        - <b>Imperial College London</b>, Hybrid Intelligence for Cyber-Physical-Human Systems.
     - year: 2025
       items:
+        - <b>TU Wien</b>, Hybrid Intelligence for Cyber-Physical-Human Systems.
         - <b>Tutorial Session, European Control Conference 2025</b>, Homotopy Optimization and Hybrid Learning for Inference and Control. 
         - <b>Politecnico di Milano (PoliMi)</b>, Real-Time Hybrid System Identification and Learning-based Control. 
     - year: 2024
       items:
+        - <b>Ocado Intelligent Automation, Stockholm</b>, Hybrid Intelligence in Control and Automation.
         - <b>ATHENA Research Center, Greece</b>, Real-time Hybrid System Identification for CPS Security and Control. 
         - <b>Uppsala University, Sweden</b>, Real-time Hybrid System Identification for CPS Security and Control.
     - year: 2023
@@ -105,7 +110,6 @@
   contents:
     - year: 2024
       items: 
-        - Associate Editor, EUCA Conference Editorial Board, European Control Conference (ECC), 2025.
         - Organizer, ACC 2024 Student Workshop on Security and Privacy of the Next-Generation Cyber-Physical Systems, IEEE Technical Committee on Security and Privacy
         - Co-Chair, 'Identification I', IEEE ECC 2024
         - Co-Chair, 'Optimization II', MED 2024
@@ -118,6 +122,7 @@
         - Co-Chair, 'Learning', IEEE CDC 2022
         - Co-Chair, 'Intelligent Data Processing From Sensors in Control and Decision Support Systems', MED 2022
     - items: 
+        - Associate Editor, EUCA Conference Editorial Board, European Control Conference (ECC), 2024-2028.
         - Journal Peer Reviewing -- [TACON, Automatica, TCNS, DCDS-B], [NAHS] 
         - Conference Peer Reviewing -- [CDC, ACC, ECC, MED], [ADHS], [ICRA, IROS], [ITSC]
 
