@@ -9,11 +9,13 @@ profile:
   image: profile_pic.png
   image_circular: true # crops the image to make it circular
   address: >
-    <p>Decision and Control Systems,</p>
-    <p>Electrical Eng. and Comp. Science,</p>
-    <p>KTH Royal Institute of Technology,</p>
-    <p>Malvinas Väg 10, 114 28, Stockholm</p>
-    <p><font size="3"> mavridis (at) kth.se </font></p>
+    <p>Cyber-Physical Systems Research Unit</p>
+    <p>Institute of Computer Engineering</p>
+    <p>Faculty of Informatics</p>
+    <p>TU Wien</p>
+    <p> - </p>
+    <p>Treitlstraße 3, 1040 Vienna, Austria</p>
+    <p><font size="3"> christos.mavridis (at) tuwien.ac.at </font></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -22,19 +24,18 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p> <font size=4rem face="monospace" >  
-Postdoc, KTH Royal Institute of Technology
+Assistant Professor, TU Wien
 </font>
 
 <hr>
 
-<h2> About </h2>
+<h2> Short Bio </h2>
 
  <!-- <br> -->
 
 <p>
 <!-- <div style="text-align: justify"> -->
-Postdoc at KTH Royal Institute of Technology, working with Prof.
-<a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>.
+
 <!-- </div> -->
 </p>
 
@@ -42,11 +43,13 @@ Postdoc at KTH Royal Institute of Technology, working with Prof.
 <!-- <div style="text-align: justify"> -->
 <!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
-Received my Ph.D. in Electrical and Computer Engineering from the University of Maryland, College Park, in 2021,
-working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a>.
-Got my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, 
-working at the Control Systems Lab (CSL) with Prof.
+I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, 
+where I worked on neuro-robotics and human-robot interaction at the Control Systems Lab (CSL) with Prof.
 <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas Kyriakopoulos</a>. 
+In 2021, I received my Ph.D. in Electrical and Computer Engineering from the University of Maryland, College Park,
+working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
+I then joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
+<a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on explainable AI, learning-based control, and communication-aware robotics.
 <!-- </div> -->
 </p> 
 
