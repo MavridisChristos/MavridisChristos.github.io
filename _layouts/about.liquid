@@ -6,28 +6,32 @@ layout: default
     <div class="col-md-4 col-lg-3 about-sidebar-col">
       <div class="about-sidebar">
         {% if page.profile %}
-          {% if page.profile.image %}
-            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-            {% if page.profile.image_circular %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-            {% else %}
-              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          <div class="about-sidebar-header">
+            {% if page.profile.image %}
+              {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+              {% if page.profile.image_circular %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+              {% else %}
+                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+              {% endif %}
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
+                cache_bust=true
+              %}
             {% endif %}
-            {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
-              cache_bust=true
-            %}
-          {% endif %}
 
-          <h1 class="about-name">
-            {% if site.title == 'blank' %}
-              <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-              {{ site.last_name }}
-            {% else %}
-              {{ site.title }}
-            {% endif %}
-          </h1>
-          {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}</p>{% endif %}
+            <div class="about-sidebar-header-text">
+              <h1 class="about-name">
+                {% if site.title == 'blank' %}
+                  <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+                  {{ site.last_name }}
+                {% else %}
+                  {{ site.title }}
+                {% endif %}
+              </h1>
+              {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}</p>{% endif %}
+            </div>
+          </div>
 
           {% if page.profile.more_info %}
             <div class="address">
