@@ -6,4 +6,6 @@ stitle: Brief CV (Resume)
 nav: true
 nav_order: 3
 cv_pdf: 
+toc:
+  sidebar: left
 ---

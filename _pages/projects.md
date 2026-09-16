@@ -22,7 +22,7 @@ nav_order: 2
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "hybrid-learning" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -31,7 +31,7 @@ nav_order: 2
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "hybrid-si" -%}
   {%- for project in projects -%}
-    {% include projects.html %}
+    {% include projects.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -49,7 +49,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "camp" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -64,7 +64,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "cps" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -93,7 +93,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "hrc" -%}
   {%- for project in projects -%}
-    {% include projects.html %}
+    {% include projects.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -102,7 +102,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "cdc19" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -116,7 +116,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "itsc21" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -127,7 +127,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "tcns22" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -136,7 +136,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "cdc21" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
@@ -145,7 +145,7 @@ Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
   <div class="row row-cols-0">
   {%- assign projects = site.projects | where: "category", "gamesec20" -%}
   {%- for project in projects -%}
-    {% include projects_left.html %}
+    {% include projects_left.liquid %}
   {%- endfor %}
   </div>
 </div>
