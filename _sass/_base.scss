@@ -225,42 +225,70 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
-// Profile
+// About page (academicpages-style sidebar)
 
-.profile {
-  width: 100%;
+.about-row {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .more-info {
+.about-row-reversed {
+  flex-direction: row-reverse;
+}
+
+.about-sidebar-col {
+  margin-bottom: 2rem;
+}
+
+.about-sidebar {
+  text-align: center;
+
+  img {
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
     font-size: 0.7rem;
-    text-align: center;
 
     p {
-      display: inline-block;
+      display: block;
       margin: 0;
+    }
+  }
+
+  .social {
+    margin-top: 1rem;
+
+    .contact-icons {
+      font-size: 1.7rem;
     }
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
+.about-name {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
-.profile.float-left {
-  margin-right: 1rem;
+.about-subtitle {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin-bottom: 1rem;
 }
 
-@media (min-width: 576px) {
-  .profile {
-    width: 30%;
-
-    .address {
-      p {
-        display: block;
-      }
-    }
+@media (min-width: 768px) {
+  .about-sidebar {
+    position: sticky;
+    top: 76px;
+    max-height: calc(100vh - 96px);
+    overflow-y: auto;
   }
 }
 
