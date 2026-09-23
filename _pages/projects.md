@@ -5,7 +5,7 @@ stitle: Research
 permalink: /projects/
 description:
 nav: true
-nav_order: 2
+nav_order: 1
 ---
 
 <div class="projects">
