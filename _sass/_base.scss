@@ -376,6 +376,12 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  // Only .social remains visible here (the disclosure is d-md-none);
+  // drop the flex row so its own text-align: center takes effect.
+  .about-sidebar-contact {
+    display: block;
+  }
+
   .about-name {
     font-size: 1.5rem;
     margin-top: 0.5rem;
