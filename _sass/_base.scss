@@ -248,7 +248,7 @@ ul.task-list input[type="checkbox"] {
 
 .about-sidebar-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.85rem;
   margin-bottom: 1rem;
 
@@ -279,13 +279,29 @@ ul.task-list input[type="checkbox"] {
   margin: 0;
 }
 
+// Mobile: address info is tucked behind a clickable disclosure.
+.address-toggle {
+  margin-top: 0.4rem;
+
+  summary {
+    cursor: pointer;
+    font-size: 0.75rem;
+    color: var(--global-theme-color);
+    list-style: revert;
+
+    &::-webkit-details-marker {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
 .about-sidebar {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
     font-size: 0.65rem;
-    text-align: center;
+    text-align: left;
 
     p {
       display: block;
@@ -336,8 +352,23 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 1rem;
   }
 
+  // The disclosure is a mobile-only affordance; always show the
+  // address on desktop, without the summary toggle.
+  .address-toggle {
+    margin-top: 0;
+
+    summary {
+      display: none;
+    }
+
+    > *:not(summary) {
+      display: block;
+    }
+  }
+
   .about-sidebar .address {
     font-size: 0.75rem;
+    text-align: center;
   }
 
   .about-sidebar .social {

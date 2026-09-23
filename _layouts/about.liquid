@@ -30,22 +30,25 @@ layout: default
                 {% endif %}
               </h1>
               {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}</p>{% endif %}
+
+              {% if page.profile.more_info %}
+                <details class="address-toggle">
+                  <summary>More info</summary>
+                  <div class="address">
+                    {{ page.profile.more_info }}
+                  </div>
+                </details>
+              {% endif %}
+
+              <!-- Social -->
+              {% if page.social %}
+                <div class="social">
+                  <div class="contact-icons">{% include social.liquid %}</div>
+
+                  <div class="contact-note">{{ site.contact_note }}</div>
+                </div>
+              {% endif %}
             </div>
-          </div>
-
-          {% if page.profile.more_info %}
-            <div class="address">
-              {{ page.profile.more_info }}
-            </div>
-          {% endif %}
-        {% endif %}
-
-        <!-- Social -->
-        {% if page.social %}
-          <div class="social">
-            <div class="contact-icons">{% include social.liquid %}</div>
-
-            <div class="contact-note">{{ site.contact_note }}</div>
           </div>
         {% endif %}
       </div>
