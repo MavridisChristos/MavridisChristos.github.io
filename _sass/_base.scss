@@ -925,7 +925,7 @@ footer.sticky-bottom {
     font-size: 0.7rem;
 
     li {
-      margin-bottom: -1rem;
+      margin-bottom: 1.5rem;
 
       .preview {
         width: 100%;
@@ -933,13 +933,19 @@ footer.sticky-bottom {
         max-width: 100px;
       }
 
+      // Fix the venue-badge column to a small, consistent width at
+      // every screen size instead of relying on Bootstrap's .col,
+      // which grows to ~50% below the sm breakpoint (the "badge is
+      // way too long on mobile" bug).
       .abbr {
-        height: 0.1rem;
+        flex: 0 0 100px;
+        max-width: 100px;
         margin-bottom: 0.5rem;
-        margin-right: -2rem;
 
         abbr {
           display: inline-block;
+          max-width: 100%;
+          white-space: normal;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
 
@@ -956,6 +962,14 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+      }
+
+      // The title/author column next to the badge: always take the
+      // remaining row width instead of Bootstrap's col-sm-8/10
+      // (which has no defined width below the sm breakpoint).
+      .abbr ~ div {
+        flex: 1 1 auto;
+        min-width: 0;
       }
 
       .title {
