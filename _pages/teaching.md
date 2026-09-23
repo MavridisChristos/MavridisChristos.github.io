@@ -17,9 +17,9 @@ nav_order: 4
   <p class="card-text">
     182.763 / VU / Winter 2026
   </p>
-  <div class="d-flex justify-content-between align-items-end">
+  <div class="d-flex justify-content-between align-items-center">
     <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=6924&dsrid=456&semester=2026W&courseNr=182763" target="_blank" rel="noopener noreferrer">View course page (TISS)</a>
-    <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics" style="max-height: 2.5rem;">
+    <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics" style="max-height: 6.5rem;">
   </div>
 </div>
 
