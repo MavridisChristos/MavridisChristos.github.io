@@ -589,10 +589,12 @@ ul.task-list input[type="checkbox"] {
 }
 
 .tuwien-icon {
+  display: inline-block !important;
   height: 24px !important;
   width: 24px !important;
   max-height: 24px !important;
   max-width: 24px !important;
+  margin: 0 !important;
   object-fit: contain !important;
   vertical-align: middle !important;
 }
