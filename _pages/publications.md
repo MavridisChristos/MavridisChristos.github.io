@@ -22,15 +22,12 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
 
 {%- for y in page.jyears %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f journals -q @*[year={{y}}]* -g none %}
+  <hr>
 {% endfor %}
 
 </div>
@@ -45,11 +42,12 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 {%- for y in page.cyears %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f conferences -q @*[year={{y}}]* -g none %}
+  <hr>
 {% endfor %}
 
 </div>
 
-<hr>
+<br>
 ## <span style="font-family:monospace;">Book Chapters</span>
 
 <!-- _pages/publications.md -->
@@ -58,11 +56,12 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 {%- for y in page.byears %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f books -q @*[year={{y}}]* -g none %}
+  <hr>
 {% endfor %}
 
 </div>
 
-<hr>
+<br>
 ## <span style="font-family:monospace;">Patents</span>
 
 <!-- _pages/publications.md -->
@@ -71,6 +70,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 {%- for y in page.pyears %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f patents -q @*[year={{y}}]* -g none %}
+  <hr>
 {% endfor %}
 
 </div>
