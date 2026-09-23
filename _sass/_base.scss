@@ -942,6 +942,10 @@ footer.sticky-bottom {
         max-width: 100px;
         margin-bottom: 0.5rem;
 
+        @media (max-width: 767.98px) {
+          margin-bottom: 0.15rem;
+        }
+
         abbr {
           display: inline-block;
           max-width: 100%;
