@@ -638,22 +638,12 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 0.7rem;
-  color: var(--global-text-color-light);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 0.9rem;
 
   .container {
     text-align: center;
-    color: var(--global-text-color-light);
-  }
-
-  a {
-    color: var(--global-text-color-light);
-
-    &:hover {
-      color: var(--global-theme-color);
-    }
   }
 }
 
