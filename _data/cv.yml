@@ -2,54 +2,53 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
+    - title: Ph.D., Electrical Engineering
       institution: University of Maryland, College Park
       year: 2021
       description:
-        - Electrical and Computer Engineering 
         - Thesis --  "Learning Latent Representations and Intrinsic Laws of Complex Systems"
-    - title: M.Sc.
+    - title: M.Sc., Electrical Engineering
       institution: University of Maryland, College Park
       year: 2021
-      description:
-        - Electrical and Computer Engineering 
-    - title: B.Sc. (5-year Diploma)
+    - title: B.Sc., Electrical and Computer Engineering (5-year Diploma)
       institution: National Technical University of Athens, Greece
       year: 2017
       description:
-        - Electrical and Computer Engineering 
         - Thesis -- "EEG and EMG Signals in Neuro-Robotic Systems"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Postdoc
-      institution: Division of Decision and Control Systems, KTH Royal Institute of Technology
-      year: 2023 - now
+    - title: Assistant Professor, TU Wien
+      institution: Faculty of Informatics
+      year: 2026 - now
+    - title: Postdoc, KTH Royal Institute of Technology
+      institution: Division of Decision and Control Systems
+      year: 2023 - 2026
       description:
         - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>
-    - title: Research Affiliate
+    - title: Research Affiliate, Ericsson AB
       institution: Ericsson Research, Stockholm
       year: 2024 - 2025
       description:
         - Joint Research Project (SSF IPD23-0019)
-    - title: Postdoc
-      institution: University of Maryland and Institute for Systems Research
+    - title: Postdoc, University of Maryland
+      institution: Institute for Systems Research
       year: 2022-2023
       description:
         - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a>
-    - title: Research Scientist Intern
+    - title: Research Scientist Intern, Xerox PARC
       institution: System Sciences Lab, Palo Alto Research Center (PARC)
       year: 2019
       description:
         - Supervisors -- Ion Matei and Johan de Kleer
-    - title: Research Scientist Intern
+    - title: Research Scientist Intern, Bell Labs
       institution: Math & Algorithms Research Group, Nokia Bell Labs
       year: 2018
       description:
         - Supervisor -- Iraj Saniee
-    - title: Undergraduate Research Assistant
-      institution: Control Systems Lab, Mechanical Eng. Dept., NTUA
+    - title: Undergraduate Research Assistant, NTUA
+      institution: Control Systems Lab, Mechanical Eng. Dept.
       year: 2015-2017
       description:
         - Advisor -- <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas J. Kyriakopoulos</a>
@@ -155,4 +154,17 @@
     - year: 2019
       items: 
         - Patent No. US 11,188,617 B2; Method and network node for internet-of-things (IoT) feature selection for storage and computation; Nokia Technologies Oy.
+ 
+- title: External Engagement
+  type: time_table
+  contents:
+    - title: eProgramma AB (e-programma)
+      institution: Founder, CEO, Research & Development
+      year: 2025 - now
+      description:
+        - Software service company providing scheduling solutions for educational institutions.
+        - Supported by <a target="_blank" rel="noopener noreferrer" href="https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-20/e-programma-1.1381438">KTH Innovation</a>
+        - Funded by Vinnova Swedish Agency for Innovation Systems.
+        - Website -- <a target="_blank" rel="noopener noreferrer" href="https://eprogramma.com">eprogramma.com</a>
+
  
