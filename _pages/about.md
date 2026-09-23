@@ -13,7 +13,8 @@ profile:
     <p>Institute of Computer Engineering</p>
     <p>Faculty of Informatics</p>
     <p>TU Wien</p>
-    <p> - </p>
+    <p> &#183 </p>
+    <!-- <p>DE0319 Treitlstraße 3, 1040 Vienna, Austria</p> -->
     <p>Treitlstraße 3, 1040 Vienna, Austria</p>
     <p><span class="address-email">christos.mavridis (at) tuwien.ac.at</span></p>
 
