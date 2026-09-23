@@ -25,9 +25,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 <div class="publications">
 
 {%- for y in page.jyears %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f journals -q @*[year={{y}}]* -g none %}
-  <hr>
+  {% bibliography -f journals -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
@@ -40,9 +38,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 <div class="publications">
 
 {%- for y in page.cyears %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f conferences -q @*[year={{y}}]* -g none %}
-  <hr>
+  {% bibliography -f conferences -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
@@ -54,9 +50,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 <div class="publications">
 
 {%- for y in page.byears %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f books -q @*[year={{y}}]* -g none %}
-  <hr>
+  {% bibliography -f books -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
@@ -68,9 +62,7 @@ Peer-Reviewed Publications, Book Chapters, and Patents
 <div class="publications">
 
 {%- for y in page.pyears %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f patents -q @*[year={{y}}]* -g none %}
-  <hr>
+  {% bibliography -f patents -q @*[year={{y}}]* %}
 {% endfor %}
 
 </div>
