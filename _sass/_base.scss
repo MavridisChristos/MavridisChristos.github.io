@@ -636,6 +636,37 @@ footer.fixed-bottom {
   }
 }
 
+// Mobile: un-pin the footer from the viewport (it should only appear
+// once you actually scroll to the end of the page) and make it read
+// as a quiet footnote instead of a persistent colored bar.
+@media (max-width: 767.98px) {
+  body {
+    padding-bottom: 0;
+  }
+
+  footer.fixed-bottom {
+    position: static;
+    width: auto;
+    background-color: transparent;
+    border-top: 1px solid var(--global-divider-color);
+    font-size: 0.65rem;
+
+    .container {
+      color: var(--global-text-color-light);
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+
+    a {
+      color: var(--global-text-color-light);
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 40px;
