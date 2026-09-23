@@ -4,6 +4,6 @@ permalink: /misc/
 title: Misc.
 stitle: 
 nav: true
-nav_order: 3
+nav_order: 5
 cv_pdf: 
 ---
