@@ -280,10 +280,26 @@ ul.task-list input[type="checkbox"] {
 }
 
 // Mobile: address info is tucked behind a discreet clickable disclosure
-// (an icon only, no label) instead of a big centered block.
-.address-toggle {
+// (an icon only, no label), sitting on the same row as the social icons.
+.about-sidebar-contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.85rem;
   margin-top: 0.6rem;
 
+  .social {
+    order: -1;
+    flex: 0 0 auto;
+  }
+
+  .address-toggle {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+.address-toggle {
   summary {
     cursor: pointer;
     list-style: none;
@@ -330,7 +346,6 @@ ul.task-list input[type="checkbox"] {
   }
 
   .social {
-    margin-top: 0.5rem;
     text-align: left;
 
     .contact-icons {
