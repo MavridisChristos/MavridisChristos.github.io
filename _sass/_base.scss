@@ -947,14 +947,19 @@ footer.sticky-bottom {
           max-width: 100%;
           white-space: normal;
           background-color: var(--global-theme-color);
+          color: white;
           margin-bottom: 0.5rem;
 
-          a {
+          // Venues without a url render as a plain <div> instead of
+          // an <a> (see bib.liquid) — style both so the label is
+          // always white regardless of which one it is.
+          a,
+          div {
             color: white;
+          }
 
-            &:hover {
-              text-decoration: none;
-            }
+          a:hover {
+            text-decoration: none;
           }
         }
 
