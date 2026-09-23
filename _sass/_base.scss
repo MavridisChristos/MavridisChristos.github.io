@@ -279,19 +279,35 @@ ul.task-list input[type="checkbox"] {
   margin: 0;
 }
 
-// Mobile: address info is tucked behind a clickable disclosure.
+// Mobile: address info is tucked behind a discreet clickable disclosure
+// (an icon only, no label) instead of a big centered block.
 .address-toggle {
-  margin-top: 0.4rem;
+  margin-top: 0.6rem;
 
   summary {
     cursor: pointer;
-    font-size: 0.75rem;
-    color: var(--global-theme-color);
-    list-style: revert;
+    list-style: none;
+    color: var(--global-text-color-light);
+    width: 1.5rem;
 
-    &::-webkit-details-marker {
+    &::-webkit-details-marker,
+    &::marker {
+      display: none;
+      content: "";
+    }
+
+    i {
+      font-size: 0.7rem;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    &:hover {
       color: var(--global-theme-color);
     }
+  }
+
+  &[open] summary i {
+    transform: rotate(180deg);
   }
 }
 
@@ -299,8 +315,7 @@ ul.task-list input[type="checkbox"] {
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: monospace;
-    font-size: 0.65rem;
+    font-size: 0.7rem;
     text-align: left;
 
     p {
@@ -309,9 +324,14 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  .address-email {
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+  }
+
   .social {
-    margin-top: 1rem;
-    text-align: center;
+    margin-top: 0.5rem;
+    text-align: left;
 
     .contact-icons {
       font-size: 1.5rem;
@@ -358,6 +378,8 @@ ul.task-list input[type="checkbox"] {
   }
 
   .about-sidebar .social {
+    text-align: center;
+
     .contact-icons {
       font-size: 1.7rem;
     }

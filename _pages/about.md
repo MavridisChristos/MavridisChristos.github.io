@@ -15,7 +15,7 @@ profile:
     <p>TU Wien</p>
     <p> - </p>
     <p>Treitlstraße 3, 1040 Vienna, Austria</p>
-    <p><font size="3"> christos.mavridis (at) tuwien.ac.at </font></p>
+    <p><span class="address-email">christos.mavridis (at) tuwien.ac.at</span></p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -23,9 +23,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<hr>
 
-<h2> Short Bio </h2>
+<h2> About </h2>
 
  <!-- <br> -->
 
@@ -50,8 +49,6 @@ I then joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral as
 </p> 
 
 
-<br>
-
 
 <h2> Research Interests </h2>
 
@@ -64,5 +61,5 @@ Focus on the analysis of learning algorithms using principles from hybrid system
 
 <!-- <br> -->
 
-<hr>
+
 

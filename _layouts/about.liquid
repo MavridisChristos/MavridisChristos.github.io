@@ -31,24 +31,24 @@ layout: default
               </h1>
               {% if page.subtitle %}<p class="about-subtitle">{{ page.subtitle }}</p>{% endif %}
 
-              {% if page.profile.more_info %}
-                <details class="address-toggle d-md-none">
-                  <summary>More info</summary>
-                  <div class="address">
-                    {{ page.profile.more_info }}
-                  </div>
-                </details>
-                <div class="address d-none d-md-block">
-                  {{ page.profile.more_info }}
-                </div>
-              {% endif %}
-
               <!-- Social -->
               {% if page.social %}
                 <div class="social">
                   <div class="contact-icons">{% include social.liquid %}</div>
 
                   <div class="contact-note">{{ site.contact_note }}</div>
+                </div>
+              {% endif %}
+
+              {% if page.profile.more_info %}
+                <details class="address-toggle d-md-none">
+                  <summary aria-label="Show contact details"><i class="fa-solid fa-chevron-down"></i></summary>
+                  <div class="address">
+                    {{ page.profile.more_info }}
+                  </div>
+                </details>
+                <div class="address d-none d-md-block">
+                  {{ page.profile.more_info }}
                 </div>
               {% endif %}
             </div>
