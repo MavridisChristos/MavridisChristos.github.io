@@ -352,20 +352,6 @@ ul.task-list input[type="checkbox"] {
     margin-bottom: 1rem;
   }
 
-  // The disclosure is a mobile-only affordance; always show the
-  // address on desktop, without the summary toggle.
-  .address-toggle {
-    margin-top: 0;
-
-    summary {
-      display: none;
-    }
-
-    > *:not(summary) {
-      display: block;
-    }
-  }
-
   .about-sidebar .address {
     font-size: 0.75rem;
     text-align: center;
