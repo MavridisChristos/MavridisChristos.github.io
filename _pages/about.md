@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: 
+subtitle: Assistant Professor, TU Wien
 
 profile:
   align: left
@@ -22,10 +22,6 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-<p> <font size=4rem face="monospace" >  
-Assistant Professor, TU Wien
-</font>
 
 <hr>
 
