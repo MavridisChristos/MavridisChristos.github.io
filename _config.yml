@@ -4,11 +4,11 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Christos 
-middle_name: N.
+middle_name: 
 last_name: Mavridis
 email:
 description: >
-  Personal Website for Dr. Christos Mavridis.
+  Research Portfolio, Christos Mavridis, TU Wien.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
