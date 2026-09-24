@@ -353,8 +353,6 @@ ul.task-list input[type="checkbox"] {
     text-align: left;
 
     .contact-icons {
-      display: inline-flex;
-      align-items: center;
       font-size: 1.5rem;
     }
   }
@@ -592,10 +590,10 @@ ul.task-list input[type="checkbox"] {
 
 .tuwien-icon {
   display: inline-block !important;
-  height: 24px !important;
-  width: 24px !important;
-  max-height: 24px !important;
-  max-width: 24px !important;
+  height: 30px !important;
+  width: 30px !important;
+  max-height: 30px !important;
+  max-width: 30px !important;
   margin: 0 !important;
   object-fit: contain !important;
   vertical-align: middle !important;
