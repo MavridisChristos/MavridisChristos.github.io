@@ -288,7 +288,7 @@ ul.task-list input[type="checkbox"] {
 .about-sidebar-contact {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem 0.85rem;
   margin-top: 0.6rem;
 
@@ -298,8 +298,12 @@ ul.task-list input[type="checkbox"] {
   }
 
   .address-toggle {
-    flex: 1 1 auto;
+    flex: 0 0 auto;
     min-width: 0;
+
+    &[open] {
+      flex-basis: 100%;
+    }
   }
 }
 
