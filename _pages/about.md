@@ -34,8 +34,7 @@ social: true  # includes social icons at the bottom of the page
 <!-- </div> -->
 </p>
 
-<p>
-<!-- <div style="text-align: justify"> -->
+<p style="text-align: justify;">
 <!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
 I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, 
@@ -45,7 +44,6 @@ In 2021, I received my Ph.D. in Electrical and Computer Engineering from the Uni
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
 I then joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on explainable AI, learning-based control, and communication-aware robotics.
-<!-- </div> -->
 </p> 
 
 <br>
@@ -53,13 +51,17 @@ I then joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral as
 <h2> Research Interests </h2>
 
 <!-- <br> -->
-<p> Inference and Control of Cyber-Physical-Human Systems. 
+<p style="text-align: justify;"> 
+Inference and Control of Cyber-Physical-Human Systems. 
 Focus on the analysis of learning algorithms using principles from hybrid systems theory, homotopy optimization and bifurcation theory, robust and risk-sensitive control, group-invariant and hierarchical topologies, knowledge representation and reasoning.
 
-<p> <strong>Fundamental Research:</strong> Optimization, Learning Theory, Hybrid Systems, System Identification,  Control Theory, Multi-Agent Systems.
-<br> <strong>Application Fields:</strong> Explainable AI & Learning-based Control, Communication-aware Robotics & Human-Robot Interaction, Risk-Sensitive Reinforcement Learning, Swarm Dynamics Identification, CPS Security in Games, Intelligent Transportation, Smart Cities.</p>
+<p style="text-align: justify;">
+<strong>Fundamental Research:</strong> Optimization, Learning Theory, Hybrid Systems, System Identification,  Control Theory, Multi-Agent Systems.
+</p>
 
-<!-- <br> -->
+<p style="text-align: justify;">
+<strong>Application Fields:</strong> Explainable AI & Learning-based Control, Communication-aware Robotics & Human-Robot Interaction, Risk-Sensitive Reinforcement Learning, Swarm Dynamics Identification, CPS Security in Games, Intelligent Transportation, Smart Cities.
+</p>
 
 <br>
 
