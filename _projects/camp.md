@@ -4,11 +4,11 @@ title: Hierarchical Communication-Aware Motion Planning
 abstract: <b>Hierarchical modeling and adaptation of hybrid network digital twin</b> for multi-agent planning under wireless communication constraints, including QoS and handover behavior.
 details: Collaboration between Christos Mavridis (PI) and Ericsson Research. 
 keywords: 
-links: <b> Links:</b> TBA
+links: <b> Links:</b> <a href="/assets/pdf/mavridis2026learning.pdf">(NAHS26)</a> 
 img: assets/giff/mavridis_ssf24_image.png
 img2: 
 urllink: 
-category: camp
+img_position: left
 ---
 
 <b> Description:</b> A novel communication-aware motion planning architecture that aims to improve the performance and robustness of the operation of an interacting team of agents communicating over a 5G wireless network.

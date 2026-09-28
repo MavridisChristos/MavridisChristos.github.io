@@ -8,5 +8,4 @@ links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="/assets
 img: assets/giff/mavridis_iros2020_video.gif
 img2: assets/giff/mavridis_ecc2018_video.gif
 urllink: 
-category: hrc
 ---

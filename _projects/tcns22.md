@@ -4,10 +4,10 @@ title: Learning Swarm Interaction Dynamics from Density Evolution
 abstract: <b>Learning swarm interaction laws</b> by observing its density evolution with iterative PDE-constrained optimization.
 details: 
 keywords: 
-links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="/assets/pdf/mavridis2023learning.pdf">(TCNS23)</a> 
+links: <b> Links:</b> <a href="/assets/pdf/mavridis2023learning.pdf">(TCNS23)</a> 
 img: assets/giff/mavridis_tcns22_video.gif
 urllink: 
-category: tcns22
+img_position: left
 ---
 
 

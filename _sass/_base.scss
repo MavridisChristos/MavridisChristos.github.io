@@ -847,30 +847,16 @@ footer.sticky-bottom {
     }
   }
   
-  .card {
-    img {
-      width: 14.5rem;
-      margin-bottom: 1rem;
-      margin-left: 2rem;
-      margin-right: 1rem;
-      margin-top: 1rem;
-    }
-    txt {
-      margin-bottom: 10px;
-      margin-left: 10px;
-      margin-right: 1rem;
-      margin-top: 10px;
-    }
+  .card-item {
+    width: 100%;
+    margin-bottom: 10px;
   }
 
-  .card-item {
-    width: auto;
-    margin-bottom: 10px;
-    margin-right: 10px;
-    .row {
-      display: flex;
-      align-items: center;
-    }
+  // Multiple project cards in a section should stack one after another,
+  // not sit side by side as Bootstrap's flex .row would otherwise do.
+  .row {
+    display: flex;
+    flex-direction: column;
   }
 
   .col {
@@ -890,6 +876,88 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+
+  // A section-less divider (e.g. "Selected Past Projects") instead of a
+  // raw <h1> mixed in among <h2> category headings.
+  h2.category-divider {
+    text-align: center;
+    border-bottom: none;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+  }
+
+  .category-note {
+    text-align: right;
+    color: var(--global-text-color-light);
+    font-size: 0.85rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  // Project cards: mobile-first stacked (image above text); above the
+  // md breakpoint, image sits left or right per project.img_position.
+  .project-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1.25rem 1.25rem;
+
+    .project-card-text {
+      min-width: 0;
+    }
+
+    .card-img {
+      width: 100%;
+      padding-top: 0;
+    }
+  }
+
+  .project-card-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+
+    .card-img {
+      flex: 1 1 200px;
+      max-width: 280px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .project-card--img-right .project-card-body,
+    .project-card--img-left .project-card-body {
+      flex-direction: row;
+      align-items: flex-start;
+
+      .project-card-text {
+        flex: 1 1 60%;
+        padding-top: 1.5rem;
+      }
+
+      .card-img {
+        flex: 0 0 35%;
+        max-width: 35%;
+      }
+    }
+
+    .project-card--img-left .project-card-body {
+      flex-direction: row-reverse;
+    }
+
+    .project-card--multi .project-card-body {
+      flex-direction: column;
+
+      .project-card-text {
+        width: 100%;
+        flex: 1 1 auto;
+      }
+    }
+  }
+
+  .project-card--multi .project-card-body .project-card-text {
+    width: 100%;
   }
 }
 

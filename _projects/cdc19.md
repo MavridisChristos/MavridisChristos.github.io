@@ -7,5 +7,5 @@ keywords:
 links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="/assets/pdf/mavridis2019robot.pdf">(CDC19)</a> 
 img: assets/giff/mavridis_cdc2019_video.gif
 urllink: 
-category: cdc19
+img_position: left
 ---

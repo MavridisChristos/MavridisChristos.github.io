@@ -8,7 +8,7 @@ links: <b> Links:</b> <a target="_blank" rel="noopener noreferrer" href="/assets
 img: assets/giff/mavridis_ecc24_image.png
 img2: 
 urllink: 
-category: cps
+img_position: left
 ---
 
 <b> Details:</b> Principles of behavioral game theory – specifically the concept of level-k thinking – is employed to construct a database of potential attack vectors. By observing the state trajectories under sequential interactions with different adversaries, the defender adaptively estimates both the number and the profiles of the different attack signals using an online deterministic annealing approach.

@@ -6,157 +6,38 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 1
+sections:
+  - title: Hybrid Learning
+    projects: [hybrid-learning]
+  - title: Robotics
+    projects: [eeg]
+  - divider: Selected Past Projects
+  - title: Communication-Aware Control
+    note: Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
+    projects: [camp]
+  - title: Intelligent Transportation
+    projects: [itsc21]
+  - title: Swarm Dynamics
+    projects: [tcns22]
 ---
 
 <div class="projects">
 
-
-<!-- 
-<img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button"> -->
-
-
-<h2 class="category">Hybrid Systems</h2>
-
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "hybrid-learning" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "hybrid-si" -%}
-  {%- for project in projects -%}
-    {% include projects.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-
-<h2 class="category">Communication-Aware Control</h2>
-
-Funded by the Swedish Foundation for Strategic Research (SSF) and Ericsson AB.
-
-
-<br>
-<br>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "camp" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-
-
-
-
-<h2 class="category">Cyber-Physical Systems Security</h2>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "cps" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-
-
-
-
-
-<br><br><br>
-
-<h1 class="category">Selected Past Projects</h1>
-
-
-
-
-
-
-
-
-
-
-<h2 class="category">Robotics</h2>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "hrc" -%}
-  {%- for project in projects -%}
-    {% include projects.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "cdc19" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-
-
-
-<h2 class="category">Intelligent Transportation</h2>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "itsc21" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-<h2 class="category">Swarm Dynamics</h2>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "tcns22" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "cdc21" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-<div class="container">
-  <div class="row row-cols-0">
-  {%- assign projects = site.projects | where: "category", "gamesec20" -%}
-  {%- for project in projects -%}
-    {% include projects_left.liquid %}
-  {%- endfor %}
-  </div>
-</div>
-
-
-
-
+{%- for section in page.sections -%}
+  {%- if section.divider -%}
+    <h2 class="category category-divider">{{ section.divider }}</h2>
+  {%- else -%}
+    <h2 class="category">{{ section.title }}</h2>
+    {%- if section.note %}<p class="category-note">{{ section.note }}</p>{% endif -%}
+    <div class="container">
+      <div class="row row-cols-0">
+        {%- for slug in section.projects -%}
+          {%- assign project = site.projects | where: "slug", slug | first -%}
+          {% include project_card.liquid %}
+        {%- endfor %}
+      </div>
+    </div>
+  {%- endif -%}
+{%- endfor %}
 
 </div>
-
-
-
-
-
