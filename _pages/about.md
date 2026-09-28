@@ -78,6 +78,6 @@ I am interested in fundamental research on Optimization, Learning Theory, (Hybri
 <li>Smart Cities</li>
 </ul>
 
+<a href="/projects/">Learn More</a>
+
 <br>
-
-
