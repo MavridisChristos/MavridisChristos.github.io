@@ -11,9 +11,9 @@ nav_order: 1
 <div class="projects">
 
 
-<!--
-<img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button">
--->
+<!-- 
+<img src="/assets/giff/mavridis_research.gif" class=research onclick="window.open(this.src)" role="button"> -->
+
 
 <h2 class="category">Hybrid Systems</h2>
 

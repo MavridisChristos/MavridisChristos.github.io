@@ -14,6 +14,7 @@ profile:
     <p>Faculty of Informatics</p>
     <p>TU Wien</p>
     <p>&#183</p>
+    <p>Office DE0319 (E191-01)</p>
     <p>Treitlstraße 3, 1040 Vienna, Austria</p>
     <p><span class="address-email">christos.mavridis (at) tuwien.ac.at</span></p>
 
@@ -37,12 +38,14 @@ social: true  # includes social icons at the bottom of the page
 <p style="text-align: justify;">
 <!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
-Since September 2026, I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/foci/ce">TU Wien Informatics</a> working on Learning Methods for Cyber-Physical-Human Systems. 
-In 2017, I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, where I worked on neuro-robotics and human-robot interaction at the Control Systems Lab (CSL) with Prof.
-<a target="_blank" rel="noopener noreferrer" href="https://www.controlsystemslab.gr/"> Kostas Kyriakopoulos</a>. 
-In 2021, I received my Ph.D. in Electrical and Computer Engineering from the University of Maryland, College Park,
+I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/foci/ce">TU Wien Informatics</a>, where I bring together learning, optimization, and control theory to study smart Cyber-Physical-Human Systems.
+</p>
+<p style="text-align: justify;">
+I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, where I worked on neuro-robotics and human-robot interaction at the Control Systems Lab (CSL) with Prof.
+<a target="_blank" rel="noopener noreferrer" href="https://www.controlsystemslab.gr/"> Kostas J. Kyriakopoulos</a>. 
+I then received my Ph.D. in Electrical and Computer Engineering from the University of Maryland, College Park,
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
-I then joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
+After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on explainable AI, learning-based control, and communication-aware robotics, collaborating with Ericsson Research as the principal investigator of a 2-year SSF project.
 </p> 
 

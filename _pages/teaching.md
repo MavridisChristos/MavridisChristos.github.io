@@ -15,11 +15,11 @@ nav_order: 3
     Bayesian Inference, Markov Decision Processes,  Supervised, Unsupervised, and Reinforcement Learning. Applications in speech recognition and robotics.
   </p>
   <p class="card-text mb-0">
-    182.763 / VU / Winter 2026
+    182.763 / 2026W, VU, 4.0h, 6.0EC
   </p>
   <div class="d-flex justify-content-end">
     <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=6924&dsrid=456&semester=2026W&courseNr=182763" target="_blank" rel="noopener noreferrer">
-      <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics — view course page (TISS)" style="max-height: 6.5rem; display: block;">
+      <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics — view course page (TISS)" style="max-height: 2.5rem; display: block;">
     </a>
   </div>
 </div>
