@@ -1,0 +1,70 @@
+# Journal directory for the "Journals" section on /conference-calendar/,
+# grouped and filtered by research direction.
+
+- direction: Controls
+  name: IFAC AUTOMATICA
+- direction: Controls
+  name: IEEE TAC
+- direction: Controls
+  name: SIAM SICON
+- direction: Controls
+  name: ELSEVIER SYSTEMS & CONTROL LETTERS (SCL)
+- direction: Controls
+  name: IEEE TCNS
+
+- direction: Robotics
+  name: SAGE IJRR
+- direction: Robotics
+  name: IEEE T-RO
+- direction: Robotics
+  name: ELSEVIER ROBOTICS & AUTONOMOUS SYSTEMS
+- direction: Robotics
+  name: SPRINGER JINT
+
+- direction: Learning
+  name: TPAMI
+- direction: Learning
+  name: JMLR
+- direction: Learning
+  name: IEEE TNNLS
+- direction: Learning
+  name: ELSEVIER PATTERN RECOGNITION
+- direction: Learning
+  name: ELSEVIER NEURAL NETWORKS
+- direction: Learning
+  name: ELSEVIER NEUROCOMPUTING
+- direction: Learning
+  name: IEEE TRANS. ON INFORMATION THEORY
+- direction: Learning
+  name: IEEE TRANS. ON SIGNAL PROCESSING
+
+- direction: Communications
+  name: IEEE COMMUNICATIONS SURVEYS AND TUTORIALS
+- direction: Communications
+  name: IEEE COMMUNICATIONS MAGAZINE
+- direction: Communications
+  name: IEEE WIRELESS COMMUNICATIONS
+- direction: Communications
+  name: IEEE NETWORKS
+- direction: Communications
+  name: IEEE JOURNAL ON SELECTED AREAS IN COMMUNICATIONS
+- direction: Communications
+  name: ELSEVIER COMPUTER NETWORKS
+- direction: Communications
+  name: IEEE TCOM
+- direction: Communications
+  name: IEEE TMLCN
+
+- direction: Transportation
+  name: SAGE TRANSPORTATION RESEARCH RECORD
+- direction: Transportation
+  name: IEEE TRANS. ON INTELLIGENT TRANSPORTATION SYSTEMS
+- direction: Transportation
+  name: IEEE TRANS. ON INTELLIGENT VEHICLES
+
+- direction: OR & HealthCare
+  name: SPRINGER HEALTH CARE MANAGEMENT SCIENCE
+- direction: OR & HealthCare
+  name: ELSEVIER OPERATIONS RESEARCH FOR HEALTH CARE
+- direction: OR & HealthCare
+  name: MATHEMATICS OF OPERATIONS RESEARCH

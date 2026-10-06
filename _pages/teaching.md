@@ -17,15 +17,16 @@ nav_order: 3
   <p class="card-text mb-0">
     182.763 / 2026W, VU, 4.0h, 6.0EC
   </p>
+  <p class="card-text mb-0 mt-2">
+    <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=6924&dsrid=456&semester=2026W&courseNr=182763" target="_blank" rel="noopener noreferrer">Link to Course (TISS)</a>
+  </p>
   <div class="d-flex justify-content-end">
-    <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=6924&dsrid=456&semester=2026W&courseNr=182763" target="_blank" rel="noopener noreferrer">
-      <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics — view course page (TISS)" style="max-height: 2.5rem; display: block;">
-    </a>
+    <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics" style="max-height: 2.5rem; display: block;">
   </div>
 </div>
 
 <br>
 
 <p class="mt-3">
-  For more information visit: <a href="https://informatics.tuwien.ac.at/people/christos-mavridis" target="_blank" rel="noopener noreferrer">informatics.tuwien.ac.at/people/christos-mavridis</a>.
+  For more information visit my <a href="https://informatics.tuwien.ac.at/people/christos-mavridis" target="_blank" rel="noopener noreferrer">TU Wien page</a>.
 </p>

@@ -30,9 +30,6 @@ social: true  # includes social icons at the bottom of the page
  <!-- <br> -->
 
 <p>
-<!-- <div style="text-align: justify"> -->
-
-<!-- </div> -->
 </p>
 
 <p style="text-align: justify;">
@@ -47,11 +44,20 @@ I then received my Ph.D. in Electrical and Computer Engineering from the Univers
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
 After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on explainable AI, learning-based control, and communication-aware robotics, collaborating with Ericsson Research as the principal investigator of a 2-year SSF project.
-</p> 
+</p>
+
+<p style="text-align: center;">
+  <a href="https://informatics.tuwien.ac.at/people/christos-mavridis" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/img/tuwien.png' | relative_url }}" alt="TU Wien" style="height: 2rem; width: 2rem;">
+  </a>
+</p>
 
 <br>
 
 <h2> Research Interests </h2>
+
+<p>
+</p>
 
 <!-- <br> -->
 <p style="text-align: justify;">

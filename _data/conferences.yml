@@ -1,0 +1,143 @@
+# Research-direction conference calendar, shown on /conference-calendar/.
+# deadline = month of the paper-submission deadline
+# occurs   = month the conference takes place (omitted where unknown)
+
+- direction: Controls
+  acronym: ACC
+  deadline: Sep
+  occurs: Jul
+- direction: Controls
+  acronym: ECC
+  deadline: Oct
+  occurs: May
+- direction: Controls
+  acronym: HSCC
+  deadline: Oct
+  occurs: May
+- direction: Controls
+  acronym: (IFAC)
+  deadline: Nov
+  occurs: Jul
+- direction: Controls
+  acronym: MED
+  deadline: Jan
+  occurs: Jun
+- direction: Controls
+  acronym: CCTA
+  deadline: Jan
+  occurs: Aug
+- direction: Controls
+  acronym: MTNS
+  deadline: Feb
+  occurs: Aug
+- direction: Controls
+  acronym: CDC
+  deadline: Mar
+  occurs: Dec
+- direction: Controls
+  acronym: Allerton
+  deadline: Jul
+  occurs: Sep
+
+- direction: Robotics
+  acronym: ICRA
+  deadline: Sep
+  occurs: Jun
+- direction: Robotics
+  acronym: HRI
+  deadline: Oct
+  occurs: Feb
+- direction: Robotics
+  acronym: RSS
+  deadline: Jan
+  occurs: Jul
+- direction: Robotics
+  acronym: IROS
+  deadline: Mar
+  occurs: Oct
+
+- direction: Learning
+  acronym: AAAI
+  deadline: Sep
+  occurs: Jan
+- direction: Learning
+  acronym: ICLR
+  deadline: Oct
+- direction: Learning
+  acronym: CVPR
+  deadline: Nov
+- direction: Learning
+  acronym: L4DC
+  deadline: Dec
+  occurs: Jun
+- direction: Learning
+  acronym: IJCAI
+  deadline: Dec
+- direction: Learning
+  acronym: ICML
+  deadline: Jan
+  occurs: Jul
+- direction: Learning
+  acronym: ICPR
+  deadline: Mar
+  occurs: Sep
+- direction: Learning
+  acronym: NeurIPS
+  deadline: May
+  occurs: Dec
+
+- direction: Communications
+  acronym: ICC
+  deadline: Oct
+  occurs: Jun
+- direction: Communications
+  acronym: SIGCOMM
+  deadline: Feb
+  occurs: Aug
+- direction: Communications
+  acronym: MobiCOM
+  deadline: Mar
+  occurs: Sep
+- direction: Communications
+  acronym: GlobeCOM
+  deadline: Apr
+  occurs: Dec
+- direction: Communications
+  acronym: INFOCOMM
+  deadline: Jul
+  occurs: Apr
+
+- direction: Transportation
+  acronym: IV
+  deadline: Feb
+  occurs: Jun
+- direction: Transportation
+  acronym: ITSWC
+  deadline: Feb
+  occurs: Oct
+- direction: Transportation
+  acronym: ITSC
+  deadline: Mar
+  occurs: Sep
+- direction: Transportation
+  acronym: TRB
+  deadline: Aug
+  occurs: Jan
+
+- direction: OR & HealthCare
+  acronym: INFORMS Healthcare
+  deadline: Feb
+  occurs: Jul
+- direction: OR & HealthCare
+  acronym: INFORMS
+  deadline: May
+  occurs: Nov
+
+- direction: MBSE
+  acronym: SYSCON
+  deadline: Oct
+  occurs: Mar
+- direction: MBSE
+  acronym: CSER
+  deadline: Nov
+  occurs: Mar

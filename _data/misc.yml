@@ -1,4 +1,9 @@
 
+- title: Resources
+  type: list
+  contents:
+    - <a href="/conference-calendar/">Conference Calendar</a> &mdash; submission deadlines and conference dates by research direction.
+
 - title: Open Source Projects
   type: time_table
   contents:

@@ -1,0 +1,45 @@
+{%- assign months = "Sep,Oct,Nov,Dec,Jan,Feb,Mar,Apr,May,Jun,Jul,Aug" | split: "," -%}
+{%- assign month_names = "Sept.,Oct.,Nov.,Dec.,Jan.,Feb.,Mar.,Apr.,May,Jun.,Jul.,Aug." | split: "," -%}
+{%- assign seasons = "fall,fall,fall,winter,winter,winter,spring,spring,spring,summer,summer,summer" | split: "," -%}
+{%- assign directions = site.data.conferences | map: "direction" | uniq -%}
+
+<div class="cal-filter-group">
+
+<div class="cal-filters" role="group" aria-label="Filter by research direction">
+  <button type="button" class="cal-filter active" data-filter="all">All</button>
+  {%- for direction in directions %}
+  <button type="button" class="cal-filter" data-filter="{{ direction | slugify }}">{{ direction }}</button>
+  {%- endfor %}
+</div>
+
+<ul class="cal-legend">
+  <li class="cal-legend--deadline">submission deadline</li>
+  <li class="cal-legend--occurs">conference takes place</li>
+</ul>
+
+<div class="cal-scroll">
+  <table class="cal-table">
+    <thead>
+      <tr>
+        <th class="cal-corner"></th>
+        {%- for month in months %}
+        <th class="cal-month cal-month--{{ seasons[forloop.index0] }}">{{ month_names[forloop.index0] }}</th>
+        {%- endfor %}
+      </tr>
+    </thead>
+    <tbody>
+      {%- for direction in directions %}
+      <tr data-direction="{{ direction | slugify }}">
+        <th class="cal-direction" scope="row">{{ direction }}</th>
+        {%- for month in months -%}
+          {%- assign deadlines = site.data.conferences | where: "direction", direction | where: "deadline", month -%}
+          {%- assign occurrences = site.data.conferences | where: "direction", direction | where: "occurs", month -%}
+          <td class="cal-cell" data-month="{{ month_names[forloop.index0] }}">{%- for conf in deadlines -%}<span class="cal-badge cal-badge--deadline">{{ conf.acronym }}</span>{%- endfor -%}{%- for conf in occurrences -%}<span class="cal-badge cal-badge--occurs">{{ conf.acronym }}</span>{%- endfor -%}</td>
+        {%- endfor %}
+      </tr>
+      {%- endfor %}
+    </tbody>
+  </table>
+</div>
+
+</div>{%- comment %} .cal-filter-group {% endcomment %}
