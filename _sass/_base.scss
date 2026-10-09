@@ -483,6 +483,12 @@ ul.task-list input[type="checkbox"] {
     }
   }
 
+  .navbar-nav .nav-item .nav-link .nav-logo {
+    height: 1.6em;
+    width: auto;
+    vertical-align: middle;
+  }
+
   .navbar-nav .nav-item.active > .nav-link {
     background-color: inherit;
     font-weight: bolder;
@@ -1878,4 +1884,25 @@ ninja-keys::part(ninja-input-wrapper) {
 ::highlight(search) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
+}
+
+// learnCPS logos (home page and nav bar)
+.learncps-logo,
+.navbar .nav-logo {
+  border-radius: 0.4rem;
+}
+
+// Images swapped by theme: .logo-light shows in light mode, .logo-dark in dark mode
+.logo-dark {
+  display: none !important;
+}
+
+html[data-theme="dark"] {
+  .logo-light {
+    display: none !important;
+  }
+
+  .logo-dark {
+    display: inline !important;
+  }
 }

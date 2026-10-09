@@ -28,5 +28,5 @@ nav_order: 3
 <br>
 
 <p class="mt-3">
-  For more information visit my <a href="https://informatics.tuwien.ac.at/people/christos-mavridis" target="_blank" rel="noopener noreferrer">TU Wien page</a>.
+  For more information visit <a href="https://informatics.tuwien.ac.at/people/christos-mavridis" target="_blank" rel="noopener noreferrer">my TU Wien page</a>.
 </p>
