@@ -35,7 +35,7 @@ social: true  # includes social icons at the bottom of the page
 <p style="text-align: justify;">
 <!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
-I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a>, leading the <a href="{{ '/learncps/' }}">learnCPS lab</a> where we bring together learning, optimization, and control theory to study and develop intelligent Cyber-Physical-Human Systems.
+I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a> and I lead the <a href="{{ '/learncps/' }}">learnCPS lab</a>, where we bring together learning, optimization, and control theory to study and develop intelligent and interacting Cyber-Physical-Human Systems.
 </p>
 <p style="text-align: justify;">
 I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, where I worked on neuro-robotics and human-robot interaction with Prof.
@@ -43,7 +43,7 @@ I received my Diploma in Electrical and Computer Engineering from the National T
 I then pursued a Ph.D. in Electrical Engineering at the University of Maryland, College Park,
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
 After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
-<a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on explainable AI, learning-based control, and communication-aware robotics, collaborating with Ericsson Research as the PI of a 2-year SSF project. 
+<a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on learning-based control, explainable AI, and communication-aware robotics, collaborating with Ericsson Research as the PI of a 2-year SSF project. 
 <!-- For more details please refer to <a href="{{ '/cv/' }}">my CV</a> or <a href="https://informatics.tuwien.ac.at/people/christos-mavridis">my TU Wien page</a>. -->
 </p>
 
