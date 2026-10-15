@@ -52,10 +52,12 @@ After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoct
     <img src="{{ '/assets/img/cv.svg' | relative_url }}" alt="CV" style="height: 2rem; width: 2rem;">
   </a> -->
   <a href="https://informatics.tuwien.ac.at/people/christos-mavridis">
-    <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien" style="height: 2.5rem; width: auto; border-radius: 0.4rem;">
+    <img src="{{ '/assets/img/tuwien-informatics-transparent.png' | relative_url }}" alt="TU Wien" class="logo-light" style="height: 2rem; width: auto; border-radius: 0.4rem;">
+    <img src="{{ '/assets/img/tuwien-informatics-white-transparent.png' | relative_url }}" alt="TU Wien" class="logo-dark" style="height: 2rem; width: auto; border-radius: 0.4rem;">
   </a>
   <a href="{{ '/learncps/' | relative_url }}" title="learnCPS">
-    <img src="{{ '/assets/img/learnCPS-full-tuwien.png' | relative_url }}" alt="learnCPS" class="learncps-logo" style="height: 2.5rem; width: auto;">
+    <img src="{{ '/assets/img/learnCPS-full-transparent.png' | relative_url }}" alt="learnCPS" class="learncps-logo logo-light" style="height: 2.5rem; width: auto;">
+    <img src="{{ '/assets/img/learnCPS-full-night-transparent.png' | relative_url }}" alt="learnCPS" class="learncps-logo logo-dark" style="height: 2.5rem; width: auto;">
   </a>
 </p>
 

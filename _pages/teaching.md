@@ -21,7 +21,8 @@ nav_order: 3
     <a href="https://tiss.tuwien.ac.at/course/courseDetails.xhtml?dswid=6924&dsrid=456&semester=2026W&courseNr=182763" target="_blank" rel="noopener noreferrer">Link to Course (TISS)</a>
   </p>
   <div class="d-flex justify-content-end">
-    <img src="{{ '/assets/img/tuwieninformatics.png' | relative_url }}" alt="TU Wien Informatics" style="max-height: 2.5rem; display: block;">
+    <img src="{{ '/assets/img/tuwien-informatics-transparent.png' | relative_url }}" alt="TU Wien Informatics" class="logo-light" style="max-height: 2.5rem;">
+    <img src="{{ '/assets/img/tuwien-informatics-white-transparent.png' | relative_url }}" alt="TU Wien Informatics" class="logo-dark" style="max-height: 2.5rem;">
   </div>
 </div>
 

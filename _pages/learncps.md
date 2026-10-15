@@ -6,12 +6,13 @@ permalink: /learncps/
 description:
 nav: true
 nav_order: 4
-nav_logo: /assets/img/learnCPS-full.png
-nav_logo_dark: /assets/img/learnCPS-full-night.png
+nav_logo: /assets/img/learnCPS-full-transparent.png
+nav_logo_dark: /assets/img/learnCPS-full-night-transparent.png
 ---
 
 <p style="text-align: center;">
-  <img src="{{ '/assets/img/learnCPS.png' | relative_url }}" alt="learnCPS logo" class="learncps-logo" style="max-width: 320px; width: 100%; height: auto;">
+  <img src="{{ '/assets/img/learnCPS-full-transparent.png' | relative_url }}" alt="learnCPS logo" class="learncps-logo logo-light" style="max-width: 320px; width: 100%; height: auto;">
+  <img src="{{ '/assets/img/learnCPS-full-night-transparent.png' | relative_url }}" alt="learnCPS logo" class="learncps-logo logo-dark" style="max-width: 320px; width: 100%; height: auto;">
 </p>
 
 <p style="text-align: justify;">

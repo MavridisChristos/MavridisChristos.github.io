@@ -1205,7 +1205,7 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+  margin-top: 0.75rem;
 
   h1 {
     color: var(--global-theme-color);
@@ -1226,8 +1226,10 @@ footer.sticky-bottom {
   h2.bibliography {
     color: var(--global-divider-color);
     border-top: 2px solid var(--global-divider-color);
-    padding-top: 1rem;
-    margin-top: 2rem;
+    font-size: 1.25rem;
+    padding-top: 0.35rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     text-align: right;
   }
 
@@ -1238,7 +1240,8 @@ footer.sticky-bottom {
     font-size: 0.7rem;
 
     li {
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.6rem;
+      line-height: 1.35;
 
       .preview {
         width: 100%;
@@ -1253,10 +1256,12 @@ footer.sticky-bottom {
       .abbr {
         flex: 0 0 100px;
         max-width: 100px;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0;
 
         @media (max-width: 767.98px) {
-          margin-bottom: 0.15rem;
+          flex-basis: 72px;
+          max-width: 72px;
+          padding-right: 0;
         }
 
         abbr {
@@ -1265,7 +1270,7 @@ footer.sticky-bottom {
           white-space: normal;
           background-color: var(--global-theme-color);
           color: white;
-          margin-bottom: 0.5rem;
+          margin-bottom: 0.25rem;
 
           // Venues without a url render as a plain <div> instead of
           // an <a> (see bib.liquid) — style both so the label is
@@ -1329,6 +1334,8 @@ footer.sticky-bottom {
       }
 
       .links {
+        margin-top: 0.15rem;
+
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
@@ -1336,7 +1343,7 @@ footer.sticky-bottom {
           padding-right: 0.5rem;
           padding-top: 0.1rem;
           padding-bottom: 0.01rem;
-          margin-left: 0;
+          margin: 0 0.25rem 0.2rem 0;
           font-size: 0.5rem;
 
           &:hover {
