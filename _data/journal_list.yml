@@ -62,9 +62,26 @@
 - direction: Transportation
   name: IEEE TRANS. ON INTELLIGENT VEHICLES
 
-- direction: OR & HealthCare
-  name: SPRINGER HEALTH CARE MANAGEMENT SCIENCE
-- direction: OR & HealthCare
-  name: ELSEVIER OPERATIONS RESEARCH FOR HEALTH CARE
-- direction: OR & HealthCare
-  name: MATHEMATICS OF OPERATIONS RESEARCH
+- direction: CPS
+  name: ACM TRANS. ON CYBER-PHYSICAL SYSTEMS (TCPS)
+- direction: CPS
+  name: IEEE TRANS. ON INDUSTRIAL CYBER-PHYSICAL SYSTEMS
+- direction: CPS
+  name: ELSEVIER NONLINEAR ANALYSIS - HYBRID SYSTEMS (NAHS)
+- direction: CPS
+  name: ACM TRANS. ON EMBEDDED COMPUTING SYSTEMS (TECS)
+- direction: CPS
+  name: IEEE TRANS. ON INDUSTRIAL INFORMATICS
+- direction: CPS
+  name: IEEE INTERNET OF THINGS JOURNAL
+
+- direction: Human-Robot Collaboration
+  name: ACM TRANS. ON HUMAN-ROBOT INTERACTION (THRI)
+- direction: Human-Robot Collaboration
+  name: IEEE TRANS. ON HUMAN-MACHINE SYSTEMS (THMS)
+- direction: Human-Robot Collaboration
+  name: IEEE TRANS. ON AUTOMATION SCIENCE AND ENGINEERING (T-ASE)
+- direction: Human-Robot Collaboration
+  name: SPRINGER INTERNATIONAL JOURNAL OF SOCIAL ROBOTICS
+- direction: Human-Robot Collaboration
+  name: ELSEVIER ROBOTICS AND COMPUTER-INTEGRATED MANUFACTURING

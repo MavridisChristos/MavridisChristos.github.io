@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Conference Calendar
-stitle: Conference Calendar
+title: Conferences and Journals
+stitle: Conferences and Journals
 permalink: /conference-calendar/
 description:
 nav: false
@@ -14,10 +14,16 @@ nav: false
 
 {% include conference_calendar.liquid %}
 
+<br>
+<br>
+
 <h2> Conferences </h2>
 <p class="cal-intro">All tracked conferences by research direction. Select a direction below to filter.</p>
 
 {% include direction_list.liquid data_key="conference_list" %}
+
+<br>
+<br>
 
 <h2> Journals </h2>
 <p class="cal-intro">All tracked journals by research direction. Select a direction below to filter.</p>
@@ -28,17 +34,34 @@ nav: false
 
 <script>
   (function () {
+    // Direction buttons toggle independently, so several can be active at
+    // once. "All" clears the selection; deselecting the last direction
+    // falls back to "All".
     document.querySelectorAll('.cal-filter-group').forEach(function (group) {
-      var buttons = group.querySelectorAll('.cal-filter');
+      var allBtn = group.querySelector('.cal-filter[data-filter="all"]');
+      var dirBtns = group.querySelectorAll('.cal-filter:not([data-filter="all"])');
       var rows = group.querySelectorAll('[data-direction]');
-      buttons.forEach(function (btn) {
+
+      function apply() {
+        var selected = [];
+        dirBtns.forEach(function (b) {
+          if (b.classList.contains('active')) selected.push(b.getAttribute('data-filter'));
+        });
+        allBtn.classList.toggle('active', selected.length === 0);
+        rows.forEach(function (row) {
+          var show = selected.length === 0 || selected.indexOf(row.getAttribute('data-direction')) !== -1;
+          row.style.display = show ? '' : 'none';
+        });
+      }
+
+      allBtn.addEventListener('click', function () {
+        dirBtns.forEach(function (b) { b.classList.remove('active'); });
+        apply();
+      });
+      dirBtns.forEach(function (btn) {
         btn.addEventListener('click', function () {
-          buttons.forEach(function (b) { b.classList.remove('active'); });
-          btn.classList.add('active');
-          var filter = btn.getAttribute('data-filter');
-          rows.forEach(function (row) {
-            row.style.display = (filter === 'all' || row.getAttribute('data-direction') === filter) ? '' : 'none';
-          });
+          btn.classList.toggle('active');
+          apply();
         });
       });
     });

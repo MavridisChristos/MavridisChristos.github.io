@@ -24,8 +24,6 @@
   name: IEEE/RSJ IROS/RA-L
 - direction: Robotics
   name: RSS
-- direction: Robotics
-  name: ACM/IEEE HRI
 
 - direction: Learning
   name: NeurIPS
@@ -62,7 +60,24 @@
 - direction: Transportation
   name: IEEE ITSWC
 
-- direction: OR & HealthCare
-  name: INFORMS
-- direction: OR & HealthCare
-  name: INFORMS Healthcare
+- direction: CPS
+  name: ACM/IEEE ICCPS (CPS-IoT Week)
+- direction: CPS
+  name: IEEE ICPS
+- direction: CPS
+  name: ACM/IEEE EMSOFT (ESWEEK)
+- direction: CPS
+  name: IFAC CPHS (2y)
+- direction: CPS
+  name: IEEE RTSS
+
+- direction: Human-Robot Collaboration
+  name: ACM/IEEE HRI
+- direction: Human-Robot Collaboration
+  name: IEEE RO-MAN
+- direction: Human-Robot Collaboration
+  name: IEEE-RAS Humanoids
+- direction: Human-Robot Collaboration
+  name: IEEE CASE
+- direction: Human-Robot Collaboration
+  name: IEEE SMC

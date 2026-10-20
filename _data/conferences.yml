@@ -44,10 +44,6 @@
   deadline: Sep
   occurs: Jun
 - direction: Robotics
-  acronym: HRI
-  deadline: Oct
-  occurs: Feb
-- direction: Robotics
   acronym: RSS
   deadline: Jan
   occurs: Jul
@@ -124,20 +120,44 @@
   deadline: Aug
   occurs: Jan
 
-- direction: OR & HealthCare
-  acronym: INFORMS Healthcare
-  deadline: Feb
-  occurs: Jul
-- direction: OR & HealthCare
-  acronym: INFORMS
-  deadline: May
-  occurs: Nov
-
-- direction: MBSE
-  acronym: SYSCON
+- direction: CPS
+  acronym: ICCPS
   deadline: Oct
+  occurs: May
+- direction: CPS
+  acronym: ICPS
+  deadline: Feb
+  occurs: May
+- direction: CPS
+  acronym: EMSOFT
+  deadline: Mar
+  occurs: Oct
+- direction: CPS
+  acronym: (CPHS)
+  deadline: May
+  occurs: Dec
+- direction: CPS
+  acronym: RTSS
+  deadline: May
+  occurs: Dec
+
+- direction: Human-Robot Collaboration
+  acronym: HRI
+  deadline: Sep
   occurs: Mar
-- direction: MBSE
-  acronym: CSER
-  deadline: Nov
-  occurs: Mar
+- direction: Human-Robot Collaboration
+  acronym: CASE
+  deadline: Mar
+  occurs: Aug
+- direction: Human-Robot Collaboration
+  acronym: SMC
+  deadline: Mar
+  occurs: Oct
+- direction: Human-Robot Collaboration
+  acronym: RO-MAN
+  deadline: Mar
+  occurs: Aug
+- direction: Human-Robot Collaboration
+  acronym: Humanoids
+  deadline: Jul
+  occurs: Dec

@@ -1038,29 +1038,34 @@ footer.sticky-bottom {
     }
   }
 
+  // Legend pills: each one uses the same type style as the calendar
+  // badge it explains (bold for deadlines, serif italic for conferences).
   .cal-legend {
     list-style: none;
     padding-left: 0;
-    margin-bottom: 1.25rem;
-    font-size: 0.8rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 
     li {
-      position: relative;
-      padding-left: 1rem;
-      margin-bottom: 0.2rem;
-
-      &::before {
-        content: "\2022";
-        position: absolute;
-        left: 0;
-      }
+      padding: 0.2rem 0.75rem;
+      border-radius: 999px;
+      border: 1px dashed var(--global-divider-color);
+      line-height: 1.4;
     }
 
     &--deadline {
+      font-size: 0.78rem;
+      font-weight: 600;
       color: var(--global-text-color);
     }
 
     &--occurs {
+      font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+      font-style: italic;
+      font-size: 0.78rem;
       color: var(--global-text-color-light);
     }
   }
