@@ -12,12 +12,28 @@ layout: default
               {% if page.profile.image_circular %}
                 {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
               {% else %}
-                {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                {% assign profile_image_class = 'img-fluid rounded about-profile-wide' %}
               {% endif %}
-              {%
-                include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
-                cache_bust=true
-              %}
+              {% if page.profile.image_dark %}
+                {% assign profile_image_dark_path = page.profile.image_dark | prepend: 'assets/img/' %}
+                <div class="about-profile-light">
+                  {%
+                    include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
+                    cache_bust=true
+                  %}
+                </div>
+                <div class="about-profile-dark">
+                  {%
+                    include figure.liquid loading="eager" path=profile_image_dark_path class=profile_image_class alt=page.profile.image_dark
+                    cache_bust=true
+                  %}
+                </div>
+              {% else %}
+                {%
+                  include figure.liquid loading="eager" path=profile_image_path class=profile_image_class alt=page.profile.image
+                  cache_bust=true
+                %}
+              {% endif %}
             {% endif %}
 
             <div class="about-sidebar-header-text">
