@@ -45,7 +45,7 @@ I then pursued a Ph.D. in Electrical Engineering at the University of Maryland, 
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
 After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on learning-based control, explainable AI, and communication-aware robotics, collaborating with Ericsson Research as the PI of a 2-year SSF project. 
-In 2026, I joined TU Wien Informatics as an assistant professor.
+In 2026, I joined TU Wien Informatics as an Assistant Professor.
 <!-- For more details please refer to <a href="{{ '/cv/' }}">my CV</a> or <a href="https://informatics.tuwien.ac.at/people/christos-mavridis">my TU Wien page</a>. -->
 </p>
 

@@ -1,14 +1,12 @@
 name: Prettier code formatter
 
+# Disabled on push/PR: the site's hand-written HTML/Liquid isn't kept in
+# Prettier style, so the check always failed. Run it manually from the
+# Actions tab if needed. To re-enable, restore the triggers:
+#   pull_request: { branches: [master, main] }
+#   push: { branches: [master, main] }
 on:
-  pull_request:
-    branches:
-      - master
-      - main
-  push:
-    branches:
-      - master
-      - main
+  workflow_dispatch:
 
 jobs:
   check:
