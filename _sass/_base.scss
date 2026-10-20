@@ -264,6 +264,29 @@ ul.task-list input[type="checkbox"] {
     display: block;
     margin: 0;
     flex-shrink: 0;
+
+    // Non-circular profile image (e.g. a wide logo): keep its aspect ratio
+    &.about-profile-wide {
+      width: 120px;
+      max-width: 120px;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+// Profile image with a dark-mode variant (profile.image_dark)
+.about-profile-dark {
+  display: none;
+}
+
+html[data-theme="dark"] {
+  .about-profile-light {
+    display: none;
+  }
+
+  .about-profile-dark {
+    display: block;
   }
 }
 
@@ -381,6 +404,11 @@ ul.task-list input[type="checkbox"] {
       width: 100%;
       height: auto;
       margin: 0 auto 1rem;
+
+      &.about-profile-wide {
+        max-width: 220px;
+        width: 100%;
+      }
     }
   }
 
@@ -1897,6 +1925,33 @@ ninja-keys::part(ninja-input-wrapper) {
 .learncps-logo,
 .navbar .nav-logo {
   border-radius: 0.4rem;
+}
+
+// "learnCPS" written as text in the logo's typeface and colours
+.learncps-wordmark {
+  font-family: "Archivo", sans-serif;
+  white-space: nowrap;
+
+  .learn {
+    font-weight: 400;
+    color: #3b6ea8;
+  }
+
+  .cps {
+    font-weight: 800;
+    font-stretch: 80%;
+    color: #0f2d52;
+  }
+}
+
+html[data-theme="dark"] .learncps-wordmark {
+  .learn {
+    color: #9cc3ea;
+  }
+
+  .cps {
+    color: #ffffff;
+  }
 }
 
 // Images swapped by theme: .logo-light shows in light mode, .logo-dark in dark mode

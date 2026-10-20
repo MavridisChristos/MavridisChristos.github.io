@@ -6,7 +6,8 @@ subtitle: Assistant Professor, TU Wien
 
 profile:
   align: left
-  image: profile_pic.png
+  image: profile_pic.png #learnCPS-full.png
+  image_dark: learnCPS-full-night.png # shown instead of image in dark mode
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Cyber-Physical Systems Research Unit</p>
@@ -85,6 +86,7 @@ I am interested in fundamental research on Optimization, Learning Theory, (Hybri
 </p>
 <ul>
 <li>Explainable AI &amp; Learning-based Control</li>
+<li>Robotics, Autonomous Vehicles, UAVs</li>
 <li>Human-Robot Interaction &amp; Collaboration</li>
 <li>Risk-Sensitive Reinforcement Learning</li>
 <li>Communication-aware Robotics</li>
