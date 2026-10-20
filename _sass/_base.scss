@@ -998,10 +998,12 @@ footer.sticky-bottom {
 // Conference Calendar
 
 .conference-calendar {
-  --cal-fall: #{rgba($purple-color, 0.14)};
-  --cal-winter: #{rgba($red-color, 0.14)};
-  --cal-spring: #{rgba($green-color, 0.14)};
-  --cal-summer: #{rgba($yellow-color, 0.3)};
+  // Month-group colours: Sept.–Dec., Jan., Feb.–May, Jun.–Aug.
+  --cal-g1: #c2410c;
+  --cal-g2: #1d4ed8;
+  --cal-g3: #15803d;
+  --cal-g4: #be185d;
+  --cal-on-g: #ffffff; // text on a filled (deadline) pill
 
   .cal-intro {
     color: var(--global-text-color-light);
@@ -1038,119 +1040,200 @@ footer.sticky-bottom {
     }
   }
 
-  // Legend pills: each one uses the same type style as the calendar
-  // badge it explains (bold for deadlines, serif italic for conferences).
-  .cal-legend {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0.75rem;
-    margin-bottom: 0;
+  // ---- Calendar -----------------------------------------------------------
+  // Each month group has its own colour (--g): it tints the group's header,
+  // lightly bands its columns, and colours the pills in its cells.
+
+  .cal-toolbar {
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
     gap: 0.5rem;
+    margin-bottom: 0.85rem;
 
-    li {
-      padding: 0.2rem 0.75rem;
-      border-radius: 999px;
-      border: 1px dashed var(--global-divider-color);
-      line-height: 1.4;
+    .cal-filters {
+      margin-bottom: 0;
+      flex: 1 1 18rem;
+      min-width: 0;
     }
+  }
 
-    &--deadline {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--global-text-color);
-    }
+  // Icon-only round button, the same height as the filter pills.
+  .cal-print-btn {
+    flex: 0 0 auto;
+    width: 2.1rem;
+    height: 2.1rem;
+    padding: 0;
+    font-size: 0.9rem;
+    line-height: 1;
+    border-radius: 50%;
+    border: 1px solid var(--global-theme-color);
+    background: transparent;
+    color: var(--global-theme-color);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: all 0.15s ease-in-out;
 
-    &--occurs {
-      font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
-      font-style: italic;
-      font-size: 0.78rem;
-      color: var(--global-text-color-light);
+    &:hover {
+      background: var(--global-theme-color);
+      color: var(--global-hover-text-color);
     }
+  }
+
+  .cal-g1 {
+    --g: var(--cal-g1);
+  }
+  .cal-g2 {
+    --g: var(--cal-g2);
+  }
+  .cal-g3 {
+    --g: var(--cal-g3);
+  }
+  .cal-g4 {
+    --g: var(--cal-g4);
   }
 
   .cal-scroll {
-    overflow-x: auto;
-    margin-bottom: 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.75rem;
+    overflow: hidden;
   }
 
   .cal-table {
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
     width: 100%;
     table-layout: fixed;
+    margin: 0;
+  }
+
+  // Wide enough for the longest label ("Communications") on one line.
+  .cal-col-direction {
+    width: 8rem;
+  }
+
+  // January is a one-month group with few entries, so it gets a narrow
+  // column and leaves more room for the other months.
+  .cal-col-jan {
+    width: 3.6rem;
   }
 
   .cal-corner {
-    width: 6.5rem;
     background: var(--global-bg-color);
+  }
+
+  .cal-group {
+    text-align: center;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.45rem 0.2rem;
+    color: var(--g);
+    background: color-mix(in srgb, var(--g) 22%, var(--global-bg-color));
   }
 
   .cal-month {
     text-align: center;
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     font-weight: 600;
-    padding: 0.5rem 0.3rem;
-    overflow-wrap: break-word;
+    padding: 0.35rem 0.2rem;
     color: var(--global-text-color);
+    background: color-mix(in srgb, var(--g) 11%, var(--global-bg-color));
+    border-bottom: 2px solid var(--g);
+  }
 
-    &--fall {
-      background: var(--cal-fall);
-    }
-
-    &--winter {
-      background: var(--cal-winter);
-    }
-
-    &--spring {
-      background: var(--cal-spring);
-    }
-
-    &--summer {
-      background: var(--cal-summer);
-    }
+  // A white gap between month groups.
+  .cal-group-start {
+    border-left: 3px solid var(--global-bg-color);
   }
 
   .cal-direction {
     background: var(--global-bg-color);
     text-align: left;
-    font-size: 0.85rem;
+    font-size: 0.82rem;
     font-weight: 600;
-    padding: 0.5rem 0.75rem 0.5rem 0;
+    line-height: 1.25;
+    padding: 0.55rem 0.4rem 0.55rem 0.7rem;
     border-bottom: 1px solid var(--global-divider-color);
+    color: var(--global-text-color);
   }
 
   .cal-cell {
     text-align: center;
-    vertical-align: top;
-    padding: 0.4rem 0.25rem;
+    vertical-align: middle;
+    padding: 0.35rem 2px;
+    background: color-mix(in srgb, var(--g) 4%, var(--global-bg-color));
     border-bottom: 1px solid var(--global-divider-color);
   }
 
+  tbody tr:last-child {
+    .cal-direction,
+    .cal-cell {
+      border-bottom: none;
+    }
+  }
+
+  // Pills: filled = submission deadline, outlined = conference.
   .cal-badge {
     display: block;
-    line-height: 1.5;
-    overflow-wrap: break-word;
+    width: fit-content;
+    margin: 0.15rem auto;
+    padding: 0.05rem 0.32rem;
+    border-radius: 999px;
+    font-size: 0.64rem;
+    line-height: 1.45;
+    overflow-wrap: normal; // never split a name; HSCC+ICCPS may break after "+"
+    text-align: center;
+    border: 1px solid var(--g, var(--global-text-color-light));
 
     &--deadline {
-      font-size: 0.78rem;
-      font-weight: 600;
-      color: var(--global-text-color);
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--cal-on-g);
+      background: var(--g, var(--global-text-color-light));
     }
 
     &--occurs {
       font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
       font-style: italic;
-      font-size: 0.68rem;
-      font-weight: 400;
-      color: var(--global-text-color-light);
+      font-weight: 500;
+      color: var(--g, var(--global-text-color-light));
+      background: var(--global-bg-color);
     }
   }
 
-  // Below the tablet breakpoint, 13 columns can't fit without either
+  .cal-legend {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.75rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 1.25rem;
+    font-size: 0.78rem;
+    color: var(--global-text-color-light);
+
+    li {
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .cal-badge {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+
+  // Below the desktop breakpoint, 13 columns can't fit without either
   // shrinking text illegibly or scrolling horizontally — so each direction
   // becomes a stacked card of "month: conferences" lines instead.
-  @media (max-width: 768px) {
+  @media screen and (max-width: 991.98px) {
+    .cal-scroll {
+      border: none;
+      border-radius: 0;
+    }
+
     .cal-table,
     .cal-table thead,
     .cal-table tbody,
@@ -1160,27 +1243,32 @@ footer.sticky-bottom {
       display: block;
     }
 
-    .cal-table thead {
+    .cal-table thead,
+    .cal-table colgroup {
       display: none;
     }
 
     .cal-table tbody tr {
-      padding-bottom: 0.5rem;
-      margin-bottom: 0.5rem;
-      border-bottom: 1px solid var(--global-divider-color);
+      padding: 0.6rem 0.85rem;
+      margin-bottom: 0.6rem;
+      border: 1px solid var(--global-divider-color);
+      border-radius: 0.75rem;
     }
 
     .cal-direction {
-      padding: 0.25rem 0;
+      padding: 0 0 0.3rem;
       border-bottom: none;
     }
 
     .cal-cell {
       display: flex;
-      gap: 0.6rem;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.3rem;
       padding: 0.15rem 0;
       text-align: left;
-      border-bottom: none;
+      background: none;
+      border: none;
 
       &:empty {
         display: none;
@@ -1188,19 +1276,17 @@ footer.sticky-bottom {
 
       &::before {
         content: attr(data-month);
-        flex: 0 0 2.5rem;
+        flex: 0 0 2.9rem;
         font-size: 0.75rem;
         font-weight: 600;
-        color: var(--global-text-color-light);
+        color: var(--g);
       }
     }
 
     .cal-badge {
-      display: inline;
-
-      &:not(:last-child)::after {
-        content: ", ";
-      }
+      display: inline-block;
+      margin: 0;
+      font-size: 0.72rem;
     }
   }
 
@@ -1231,6 +1317,14 @@ footer.sticky-bottom {
       &:not(:last-child) {
         border-bottom: 1px dashed var(--global-divider-color);
       }
+    }
+
+    // Journal details: page limit · column format · note
+    .conf-meta {
+      display: block;
+      font-size: 0.72rem;
+      line-height: 1.35;
+      color: var(--global-text-color-light);
     }
   }
 }
@@ -1971,5 +2065,106 @@ html[data-theme="dark"] {
 
   .logo-dark {
     display: inline !important;
+  }
+}
+
+// Conference calendar in dark mode: lighter group colours, dark pill text.
+html[data-theme="dark"] .conference-calendar {
+  --cal-g1: #fb923c;
+  --cal-g2: #60a5fa;
+  --cal-g3: #4ade80;
+  --cal-g4: #f472b6;
+  --cal-on-g: #1c1c1d;
+}
+
+// Printing the conference calendar. The "Print / PDF" button copies the
+// calendar into #cal-print-root (a direct child of <body>), adds the
+// .cal-printing class and a landscape @page rule with zero margins (which
+// also suppresses the browser's header and footer), and removes all three
+// after printing. Only the table is printed, in light colours, filling the
+// page; the 10mm white border comes from the root's own padding.
+#cal-print-root {
+  display: none;
+}
+
+@media print {
+  html.cal-printing {
+    // !important: the fixed navbar's body padding must not push the table down.
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+      background: #fff;
+    }
+
+    body > *:not(#cal-print-root) {
+      display: none !important;
+    }
+  }
+
+  #cal-print-root {
+    display: block;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+
+    --global-bg-color: #ffffff;
+    --global-text-color: #1c1c1d;
+    --global-text-color-light: #5f6368;
+    --global-divider-color: #d9d9de;
+    --cal-g1: #c2410c;
+    --cal-g2: #1d4ed8;
+    --cal-g3: #15803d;
+    --cal-g4: #be185d;
+    --cal-on-g: #ffffff;
+
+    padding: 10mm;
+    color: var(--global-text-color);
+    background: #fff;
+
+    .cal-legend {
+      display: none;
+    }
+
+    .cal-scroll {
+      overflow: visible;
+    }
+
+    // Fits one landscape page on both A4 (210mm tall) and Letter (216mm)
+    // inside the 10mm padding.
+    .cal-table {
+      height: 186mm;
+    }
+
+    .cal-col-direction {
+      width: 37mm;
+    }
+
+    .cal-col-jan {
+      width: 15mm;
+    }
+
+    .cal-group {
+      font-size: 8pt;
+      padding: 1.5mm 1mm;
+    }
+
+    .cal-month {
+      font-size: 9pt;
+      padding: 1.5mm 1mm;
+    }
+
+    .cal-direction {
+      font-size: 10pt;
+      padding: 1mm 2mm 1mm 3mm;
+    }
+
+    .cal-badge {
+      font-size: 7.5pt;
+      padding: 0.3mm 1.3mm;
+      margin: 0.6mm auto;
+    }
+
+    tr {
+      break-inside: avoid;
+    }
   }
 }

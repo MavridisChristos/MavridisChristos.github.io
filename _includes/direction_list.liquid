@@ -17,7 +17,12 @@
     <h4 class="conf-list-title">{{ direction }}</h4>
     <ul class="conf-list">
       {%- for item in items_in_direction %}
-      <li>{{ item.name }}</li>
+      <li>
+        {{ item.name }}
+        {%- if item.pages or item.format %}
+        <span class="conf-meta">{{ item.pages }}{% if item.pages and item.format %} · {% endif %}{{ item.format }}{% if item.note %} · {{ item.note }}{% endif %}</span>
+        {%- endif %}
+      </li>
       {%- endfor %}
     </ul>
   </div>

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Conferences and Journals
-stitle: Conferences and Journals
-permalink: /conference-calendar/
+title: Publication Planner
+stitle: Publication Planner
+permalink: /publication-planner/
 description:
 nav: false
 ---
@@ -20,7 +20,7 @@ nav: false
 <h2> Conferences </h2>
 <p class="cal-intro">All tracked conferences by research direction. Select a direction below to filter.</p>
 
-{% include direction_list.liquid data_key="conference_list" %}
+{% include direction_list.liquid data_key="conferences" %}
 
 <br>
 <br>
@@ -63,6 +63,34 @@ nav: false
           btn.classList.toggle('active');
           apply();
         });
+      });
+    });
+
+    // "Print / PDF": print only the calendar (with the current filter), on a
+    // landscape page. The browser's print dialog offers A4/Letter and
+    // "Save as PDF". See #cal-print-root in _sass/_base.scss.
+    document.querySelectorAll('.cal-print-btn').forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var area = btn.closest('.cal-filter-group').querySelector('.cal-print-area');
+        var root = document.createElement('div');
+        root.id = 'cal-print-root';
+        root.className = 'conference-calendar';
+        root.appendChild(area.cloneNode(true));
+        document.body.appendChild(root);
+
+        var pageStyle = document.createElement('style');
+        pageStyle.textContent = '@page { size: landscape; margin: 0; }';
+        document.head.appendChild(pageStyle);
+        document.documentElement.classList.add('cal-printing');
+
+        function cleanup() {
+          window.removeEventListener('afterprint', cleanup);
+          root.remove();
+          pageStyle.remove();
+          document.documentElement.classList.remove('cal-printing');
+        }
+        window.addEventListener('afterprint', cleanup);
+        window.print();
       });
     });
   })();

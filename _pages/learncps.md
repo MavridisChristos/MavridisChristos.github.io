@@ -57,6 +57,7 @@ We tackle inference and control problems in various Cyber-Physical-Human Systems
 </p>
 <ul>
 <li>hybrid systems theory</li>
+<li>stochastic optimization</li>
 <li>robust and risk-sensitive control</li>
 <li>knowledge representation and reasoning</li>
 <li>group-invariant and hierarchical topologies</li>
@@ -67,8 +68,8 @@ We tackle inference and control problems in various Cyber-Physical-Human Systems
 Beyond fundamental research on Optimization, Learning Theory, (Hybrid) Systems and Control Theory, and Multi-Agent Systems, we are interested in a wide range of applications, including:
 </p>
 <ul>
-<li>Explainable AI &amp; Learning-based Control</li>
 <li>Robotics, Autonomous Vehicles, UAVs</li>
+<li>Explainable AI &amp; Learning-based Control</li>
 <li>Human-Robot Interaction &amp; Collaboration</li>
 <li>Risk-Sensitive Reinforcement Learning</li>
 <li>Communication-aware Robotics</li>

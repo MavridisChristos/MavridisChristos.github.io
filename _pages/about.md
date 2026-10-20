@@ -7,7 +7,7 @@ subtitle: Assistant Professor, TU Wien
 profile:
   align: left
   image: profile_pic.png #learnCPS-full.png
-  image_dark: learnCPS-full-night.png # shown instead of image in dark mode
+  image_dark: profile_pic.png #learnCPS-full-night.png # shown instead of image in dark mode
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Cyber-Physical Systems Research Unit</p>
@@ -36,7 +36,7 @@ social: true  # includes social icons at the bottom of the page
 <p style="text-align: justify;">
 <!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
-I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a> and I lead the <a href="{{ '/learncps/' }}">learnCPS lab</a>, where we bring together learning, optimization, and control theory to study and develop intelligent and interacting Cyber-Physical-Human Systems.
+I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a> where I lead the <a href="{{ '/learncps/' }}"><span class="learncps-wordmark"><span class="learn">learn</span><span class="cps">CPS</span></span></a> lab. We bring together learning, optimization, and control theory to study and develop intelligent and interacting Cyber-Physical-Human Systems.
 </p>
 <p style="text-align: justify;">
 I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, where I worked on neuro-robotics and human-robot interaction with Prof.
@@ -45,6 +45,7 @@ I then pursued a Ph.D. in Electrical Engineering at the University of Maryland, 
 working with Prof. <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a> on stochastic optimization, and inference and control of cyber-physical systems.
 After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoctoral associate, where I worked with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a> on learning-based control, explainable AI, and communication-aware robotics, collaborating with Ericsson Research as the PI of a 2-year SSF project. 
+In 2026, I joined TU Wien Informatics as an assistant professor.
 <!-- For more details please refer to <a href="{{ '/cv/' }}">my CV</a> or <a href="https://informatics.tuwien.ac.at/people/christos-mavridis">my TU Wien page</a>. -->
 </p>
 
@@ -71,10 +72,11 @@ After that, I joined KTH Royal Institute of Technology, Stockholm, as a postdoct
 
 <!-- <br> -->
 <p style="text-align: justify;">
-Inference and Control of Cyber-Physical-Human Systems with focus on the analysis of learning algorithms using principles from:
+We tackle inference and control problems in various Cyber-Physical-Human Systems, from autonomous cars to UAV swarms, and from industrial robots to collaborative human-robot systems. We focus on the analysis of the underlying learning algorithms using principles from:
 </p>
 <ul>
 <li>hybrid systems theory</li>
+<li>stochastic optimization</li>
 <li>robust and risk-sensitive control</li>
 <li>knowledge representation and reasoning</li>
 <li>group-invariant and hierarchical topologies</li>
@@ -82,11 +84,11 @@ Inference and Control of Cyber-Physical-Human Systems with focus on the analysis
 </ul>
 
 <p style="text-align: justify;">
-I am interested in fundamental research on Optimization, Learning Theory, (Hybrid) Systems and Control Theory, and Multi-Agent Systems, with applications in:
+Beyond fundamental research on Optimization, Learning Theory, (Hybrid) Systems and Control Theory, and Multi-Agent Systems, we are interested in a wide range of applications, including:
 </p>
 <ul>
-<li>Explainable AI &amp; Learning-based Control</li>
 <li>Robotics, Autonomous Vehicles, UAVs</li>
+<li>Explainable AI &amp; Learning-based Control</li>
 <li>Human-Robot Interaction &amp; Collaboration</li>
 <li>Risk-Sensitive Reinforcement Learning</li>
 <li>Communication-aware Robotics</li>

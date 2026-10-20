@@ -6,7 +6,7 @@
       institution: University of Maryland, College Park
       year: 2021
       description:
-        - Thesis --  "Learning Latent Representations and Intrinsic Laws of Complex Systems"
+        - Thesis &mdash; "Learning Latent Representations and Intrinsic Laws of Complex Systems"
     - title: M.Sc., Electrical Engineering
       institution: University of Maryland, College Park
       year: 2021
@@ -14,7 +14,7 @@
       institution: National Technical University of Athens, Greece
       year: 2017
       description:
-        - Thesis -- "EEG and EMG Signals in Neuro-Robotic Systems"
+        - Thesis &mdash; "EEG and EMG Signals in Neuro-Robotic Systems"
 
 - title: Experience
   type: time_table
@@ -26,7 +26,7 @@
       institution: Division of Decision and Control Systems
       year: 2023 - 2026
       description:
-        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>
+        - Advisor &mdash; <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>
     - title: Research Affiliate, Ericsson AB
       institution: Ericsson Research, Stockholm
       year: 2024 - 2025
@@ -36,22 +36,22 @@
       institution: Institute for Systems Research
       year: 2022-2023
       description:
-        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a>
+        - Advisor &mdash; <a target="_blank" rel="noopener noreferrer" href="https://ece.umd.edu/clark/faculty/357/John-S-Baras"> John S. Baras</a>
     - title: Research Scientist Intern, Xerox PARC
       institution: System Sciences Lab, Palo Alto Research Center (PARC)
       year: 2019
       description:
-        - Supervisors -- Ion Matei and Johan de Kleer
+        - Supervisors &mdash; Ion Matei and Johan de Kleer
     - title: Research Scientist Intern, Bell Labs
       institution: Math & Algorithms Research Group, Nokia Bell Labs
       year: 2018
       description:
-        - Supervisor -- Iraj Saniee
+        - Supervisor &mdash; Iraj Saniee
     - title: Undergraduate Research Assistant, NTUA
       institution: Control Systems Lab, Mechanical Eng. Dept.
       year: 2015-2017
       description:
-        - Advisor -- <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas J. Kyriakopoulos</a>
+        - Advisor &mdash; <a target="_blank" rel="noopener noreferrer" href="http://www.controlsystemslab.gr/kkyria/"> Kostas J. Kyriakopoulos</a>
 
 - title: Funded Projects
   type: time_table
@@ -60,15 +60,15 @@
       institution: Funded from the Swedish Foundation for Strategic Research and Ericsson AB 
       year: 2024
       description:
-        - PI -- Christos Mavridis
-        - Project Scope -- "Hierarchical Communication-Aware Motion Planning"
+        - PI &mdash; Christos Mavridis
+        - Project Scope &mdash; "Hierarchical Communication-Aware Motion Planning"
         - Collaboration with KTH Royal Institute of Technology and Ericsson AB
     - title: VINNOVA 6G - International Research and Innovation Cooperation 2025-01681  [2-year, 3 MSEK]
       institution: Funded from VINNOVA 
       year: 2025
       description:
-        - Coordinator -- Ericsson Research
-        - Project Scope -- "Trustworthy 6G Positioning in Complex Environments. A Data-Driven Approach"
+        - Coordinator &mdash; Ericsson Research
+        - Project Scope &mdash; "Trustworthy 6G Positioning in Complex Environments. A Data-Driven Approach"
         - Collaboration with KTH Royal Institute of Technology, Nanyang Technological University, Singapore, and
           Ericsson AB.
 
@@ -122,8 +122,8 @@
         - Co-Chair, 'Intelligent Data Processing From Sensors in Control and Decision Support Systems', MED 2022
     - items: 
         - Associate Editor, EUCA Conference Editorial Board, European Control Conference (ECC), 2024-2028.
-        - Journal Peer Reviewing -- [TACON, Automatica, TCNS, DCDS-B], [NAHS] 
-        - Conference Peer Reviewing -- [CDC, ACC, ECC, MED], [ADHS], [ICRA, IROS], [ITSC]
+        - Journal Peer Reviewing &mdash; [TACON, Automatica, TCNS, DCDS-B], [NAHS] 
+        - Conference Peer Reviewing &mdash; [CDC, ACC, ECC, MED], [ADHS], [ICRA, IROS], [ITSC]
 
 - title: Honors and Awards
   type: time_table
@@ -154,7 +154,7 @@
     - year: 2019
       items: 
         - Patent No. US 11,188,617 B2; Method and network node for internet-of-things (IoT) feature selection for storage and computation; Nokia Technologies Oy.
-    - description: Four (4) filed inventions with Telefonaktiebolaget LM Ericsson.
+    - description: Five (5) filed inventions with Telefonaktiebolaget LM Ericsson.
 
 - title: External Engagement
   type: time_table
@@ -166,6 +166,6 @@
         - Software service company providing scheduling solutions for educational institutions.
         - Supported by <a target="_blank" rel="noopener noreferrer" href="https://www.kth.se/en/om/innovation/program-extra-stod/launch/bolag/batch-20/e-programma-1.1381438">KTH Innovation</a>
         - Funded by Vinnova Swedish Agency for Innovation Systems.
-        - Website -- <a target="_blank" rel="noopener noreferrer" href="https://eprogramma.com">eprogramma.com</a>
+        - Website &mdash; <a target="_blank" rel="noopener noreferrer" href="https://eprogramma.com">eprogramma.com</a>
 
  

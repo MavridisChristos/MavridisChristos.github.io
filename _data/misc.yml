@@ -17,7 +17,7 @@
   type: time_table
   contents:
     - title: <a href="/cv/">My CV</a>
-    - title: <a href="/conference-calendar/">Conference Calendar</a> 
+    - title: <a href="/publication-planner/">Publication Planner</a> 
 
 - title: Some thoughts on academic life and research
   type: time_table
