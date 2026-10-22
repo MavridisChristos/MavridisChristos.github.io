@@ -36,7 +36,7 @@ social: true  # includes social icons at the bottom of the page
 <p style="text-align: justify;">
 <!-- Postdoc at KTH Royal Institute of Technology, Stockholm, working with Prof.
 <a target="_blank" rel="noopener noreferrer" href="https://people.kth.se/~kallej/"> Karl Henrik Johansson</a>. -->
-I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a> where I lead the <a href="{{ '/learncps/' }}"><span class="learncps-wordmark"><span class="learn">learn</span><span class="cps">CPS</span></span></a> lab. We bring together learning, optimization, and control theory to study and develop intelligent and interacting Cyber-Physical-Human Systems.
+I am an Assistant Professor at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a> where I lead the <a href="{{ '/learncps/' }}"><span class="learncps-wordmark"><span class="learn">Learn</span><span class="cps">CPS</span></span></a> lab. We bring together learning, optimization, and control theory to study and develop intelligent and interacting Cyber-Physical-Human Systems.
 </p>
 <p style="text-align: justify;">
 I received my Diploma in Electrical and Computer Engineering from the National Technical University of Athens, Greece, where I worked on neuro-robotics and human-robot interaction with Prof.

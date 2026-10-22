@@ -18,7 +18,7 @@ nav_logo_dark: /assets/img/learnCPS-full-night-transparent.png
 
 
 <p style="text-align: justify;">
-At <span class="learncps-wordmark"><span class="learn">learn</span><span class="cps">CPS</span></span>, 
+At <span class="learncps-wordmark"><span class="Learn">learn</span><span class="cps">CPS</span></span>, 
 <!-- at <a target="_blank" rel="noopener noreferrer" href="https://informatics.tuwien.ac.at/orgs/e191-01">TU Wien Informatics</a>,  -->
 we bring together learning, optimization, and control theory to study intelligent Cyber-Physical-Human Systems.
 </p>
