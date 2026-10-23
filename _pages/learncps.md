@@ -1,6 +1,6 @@
 ---
 layout: page
-title: learnCPS
+title: LearnCPS
 stitle: 
 permalink: /learncps/
 description:
