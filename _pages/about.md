@@ -14,8 +14,10 @@ profile:
     <p>Institute of Computer Engineering</p>
     <p>Faculty of Informatics</p>
     <p>TU Wien</p>
-    <p style="margin-top: 0.75rem;">Office DE0319, Treitlstraße 3, 1040 Vienna</p>
-    <p><span class="address-email">christos.mavridis (at) tuwien.ac.at</span></p>
+    <p style="margin-top: 0.75rem;">Office DE0319 (E191-01)</p>
+    <p>Treitlstraße 3, 1040 Vienna, Austria</p>
+    <p><i class="fa-solid fa-envelope fa-fw"></i> <span class="address-email">christos.mavridis (at) tuwien.ac.at</span></p>
+    <p><i class="fa-solid fa-phone fa-fw"></i> <a href="tel:+43158801740061" class="address-email">+43 1 58801 740061</a></p>
 
 news: false  # the home page shows the latest news in its own section below
 latest_posts: false  # includes a list of the newest posts
