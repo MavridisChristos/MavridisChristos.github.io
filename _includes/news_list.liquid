@@ -1,0 +1,54 @@
+{% comment %}
+  News items as a list of date + text rows.
+  Usage: {% include news_list.liquid limit=6 visible=3 %}
+    limit:   number of items to list (omit for all)
+    visible: show this many items and scroll for the rest (omit for no scrolling)
+{% endcomment %}
+{% assign news = site.news | sort: 'date' | reverse %}
+{% if include.limit %}{% assign news_limit = include.limit %}{% else %}{% assign news_limit = news.size %}{% endif %}
+{% if news.size > 0 %}
+  <ul class="lcps-news{% if include.visible %} lcps-news-scroll{% endif %}"{% if include.visible %} data-visible="{{ include.visible }}" tabindex="0" aria-label="Latest news"{% endif %}>
+    {% for item in news limit: news_limit %}
+      <li>
+        <time datetime="{{ item.date | date_to_xmlschema }}">
+          <span class="lcps-news-month">{{ item.date | date: '%b' }}</span>
+          <span class="lcps-news-year">{{ item.date | date: '%Y' }}</span>
+        </time>
+        <div class="lcps-news-body">
+          {% if item.inline %}
+            {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  {% if include.visible %}
+    <script>
+      // Size each scrolling news list to show exactly `data-visible` items.
+      (function () {
+        function fit() {
+          document.querySelectorAll(".lcps-news-scroll").forEach(function (list) {
+            var n = parseInt(list.dataset.visible, 10);
+            var items = list.children;
+            if (items.length <= n) {
+              list.style.maxHeight = "none";
+              list.classList.remove("is-scrolling");
+              return;
+            }
+            var top = list.getBoundingClientRect().top;
+            list.style.maxHeight = items[n].getBoundingClientRect().top - top + list.scrollTop + "px";
+            list.classList.add("is-scrolling");
+          });
+        }
+        fit();
+        window.addEventListener("resize", fit);
+        window.addEventListener("load", fit);
+        if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+      })();
+    </script>
+  {% endif %}
+{% else %}
+  <p>No news so far.</p>
+{% endif %}

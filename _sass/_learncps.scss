@@ -1,0 +1,680 @@
+/*******************************************************************************
+ * Shared look with the LearnCPS lab website (learncps.eu).
+ * Same palette, buttons, news list and pill links as the lab site, but this
+ * site keeps a light navbar so the two are easy to tell apart.
+ * Source of the shared parts: learncps.github.io/_sass/_learncps.scss
+ ******************************************************************************/
+
+$lcps-navy: #0f2d52;
+$lcps-navy-deep: #0a2140;
+$lcps-blue: #3b6ea8;
+$lcps-sky: #8fc1ee;
+$lcps-light: #f2f5f9;
+$lcps-gray: #5a6472;
+
+// Navy pill background, shared by the LearnCPS nav item, the lab card and the
+// home page links (the same layers as the lab site's home hero)
+@mixin lcps-navy-surface {
+  background:
+    radial-gradient(circle at 1px 1px, rgba(255, 255, 255, 0.13) 1px, transparent 1.6px) 0 0 / 12px 12px,
+    radial-gradient(ellipse 70% 140% at 90% 0%, rgba(59, 110, 168, 0.65), transparent 70%),
+    radial-gradient(ellipse 60% 140% at 0% 120%, rgba(91, 79, 196, 0.4), transparent 70%),
+    linear-gradient(160deg, $lcps-navy 0%, #123a66 100%);
+}
+
+:root {
+  --global-theme-color: #{$lcps-blue};
+  --global-hover-color: #{$lcps-navy};
+  --global-footer-bg-color: #{$lcps-navy};
+  --global-footer-text-color: #b8cbe0;
+  --global-footer-link-color: #ffffff;
+  --lcps-surface: #{$lcps-light};
+  --lcps-card-bg: #ffffff;
+  --lcps-card-border: #e3e9f0;
+  --lcps-heading: #{$lcps-navy};
+  --lcps-muted: #{$lcps-gray};
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #9cc3ea;
+  --global-hover-color: #c7defa;
+  --global-footer-bg-color: #{$lcps-navy-deep};
+  --global-footer-text-color: #b8cbe0;
+  --global-footer-link-color: #ffffff;
+  --lcps-surface: #1f2833;
+  --lcps-card-bg: #24272b;
+  --lcps-card-border: #343a42;
+  --lcps-heading: #e3edf8;
+  --lcps-muted: #a3adb9;
+}
+
+/* ---------------------------------------------------------------- Navbar -- */
+
+// External links get a small arrow
+.navbar .nav-external-icon {
+  font-size: 0.65em;
+  margin-left: 0.3rem;
+  vertical-align: 0.15em;
+  opacity: 0.6;
+}
+
+/* ---------------------------------------------------------------- Footer -- */
+
+footer.fixed-bottom a,
+footer.sticky-bottom a {
+  color: var(--global-footer-link-color);
+}
+
+/* -------------------------------------------------------------- Headings -- */
+
+.about-main h2,
+.projects h2.category {
+  color: var(--lcps-heading);
+  font-weight: 700;
+}
+
+.about-main .home-heading {
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--lcps-card-border);
+}
+
+/* ------------------------------------------------------------------ Home -- */
+
+.home-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.home-section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--lcps-card-border);
+
+  h2 {
+    margin: 0;
+  }
+
+  a {
+    font-weight: 600;
+    font-size: 0.95rem;
+
+    i {
+      font-size: 0.8em;
+      margin-left: 0.2rem;
+    }
+  }
+}
+
+.home-news {
+  margin-bottom: 3rem;
+}
+
+// Closing row of the home page: pill links to the main pages
+.home-explore {
+  margin: 0 0 2.5rem;
+}
+
+.home-explore-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+
+  a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    padding: 0.6rem 1.2rem;
+    border-radius: 999px;
+    font-weight: 600;
+    color: var(--lcps-heading);
+    background: var(--lcps-card-bg);
+    border: 1.5px solid color-mix(in srgb, #{$lcps-blue} 40%, transparent);
+    transition:
+      transform 0.15s ease,
+      border-color 0.15s ease,
+      background-color 0.15s ease;
+
+    i {
+      font-size: 0.9em;
+      color: var(--global-theme-color);
+    }
+
+    &:hover {
+      text-decoration: none;
+      border-color: $lcps-blue;
+      background: var(--lcps-surface);
+      transform: translateY(-1px);
+    }
+  }
+
+  // plain text links next to the lab pill
+  a.home-explore-text {
+    padding: 0.2rem 0;
+    border-color: transparent;
+    background: transparent;
+
+    &:hover {
+      background: transparent;
+      border-color: transparent;
+      text-decoration: underline;
+      transform: none;
+    }
+  }
+
+  // the lab link stands out in the lab's navy
+  a.home-explore-lab {
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+    color: #ffffff;
+
+    // white logo; sized so the pill matches the height of the others
+    img {
+      height: 1.9rem;
+      width: auto;
+    }
+
+    border-color: rgba(255, 255, 255, 0.12);
+    @include lcps-navy-surface;
+    box-shadow: 0 3px 10px rgba(15, 45, 82, 0.15);
+
+    i {
+      color: $lcps-sky;
+    }
+
+    &:hover {
+      color: #ffffff;
+      filter: brightness(1.18);
+    }
+  }
+}
+
+// One centred row under the bio: TU Wien, LearnCPS, CV
+.home-explore-links.home-explore-row {
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media (max-width: 575.98px) {
+  .home-explore-links.home-explore-row {
+    gap: 0.5rem;
+
+    a.home-explore-text {
+      font-size: 0.9rem;
+      gap: 0.4rem;
+    }
+
+    a.home-explore-lab {
+      padding: 0.3rem 0.8rem;
+
+      img {
+        height: 1.5rem;
+      }
+    }
+  }
+}
+
+/* ------------------------------------------------------------------ News -- */
+
+// Scrolling list (home page): the script in news_list.liquid sets the exact
+// max-height for N items; this is the no-JS fallback.
+.lcps-news-scroll {
+  position: relative;
+  max-height: 28rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 0.5rem !important;
+  scrollbar-width: thin;
+  scrollbar-color: var(--lcps-card-border) transparent;
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 4px;
+    border-radius: 0.25rem;
+  }
+
+  // the line under the last visible item hints that the list continues
+  &.is-scrolling {
+    border-bottom: 1px solid var(--lcps-card-border);
+  }
+}
+
+.lcps-news {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    gap: 1.1rem;
+    align-items: flex-start;
+    padding: 0.85rem 0;
+    border-bottom: 1px solid var(--lcps-card-border);
+
+    &:first-child {
+      padding-top: 0.25rem;
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+
+  time {
+    flex: none;
+    width: 3.6rem;
+    padding: 0.35rem 0 0.3rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 1.1;
+    background: var(--lcps-surface);
+    border-top: 3px solid $lcps-blue;
+  }
+
+  .lcps-news-month {
+    display: block;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--lcps-heading);
+  }
+
+  .lcps-news-year {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--lcps-muted);
+  }
+
+  .lcps-news-body {
+    flex: 1;
+    min-width: 0;
+    padding-top: 0.15rem;
+    font-size: 1rem;
+    line-height: 1.45;
+
+    b {
+      font-weight: 600;
+      color: var(--lcps-heading);
+    }
+
+    // the news files use <font size="1"> for their detail lines
+    font {
+      display: inline-block;
+      margin-top: 0.2rem;
+      font-size: 0.85rem;
+      color: var(--lcps-muted);
+    }
+
+    br + font {
+      margin-top: 0.15rem;
+    }
+  }
+}
+
+/* -------------------------------------------------------------- Research -- */
+
+.research-lead {
+  text-align: justify;
+  font-size: 1.05rem;
+}
+
+// Link to the lab website at the bottom of the Research page: a big navy pill
+.lab-pill-row {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+a.lab-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.6rem;
+  border-radius: 999px;
+  color: #ffffff !important; // beats the theme link colour
+  font-weight: 600;
+  font-size: 1.05rem;
+  @include lcps-navy-surface;
+  box-shadow: 0 4px 14px rgba(15, 45, 82, 0.22);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease,
+    filter 0.15s ease;
+
+  span {
+    color: #ffffff !important;
+  }
+
+  img {
+    height: 2.4rem;
+    width: auto;
+  }
+
+  i {
+    font-size: 0.8em;
+    margin-left: 0.2rem;
+    color: #8fc1ee !important;
+  }
+
+  &:hover {
+    text-decoration: none;
+    filter: brightness(1.15);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(15, 45, 82, 0.3);
+  }
+}
+
+/* ---------------------------------------------------------- Site credits -- */
+
+// Discreet colophon at the end of the home page (same as the lab site)
+.site-credits {
+  margin: 2.5rem 0 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--lcps-card-border);
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--lcps-muted);
+  opacity: 0.8;
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: var(--lcps-card-border);
+    text-underline-offset: 2px;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+/* ---------------------------------------------- Research & Teaching pages -- */
+// Same cards, headings and intro box as the lab's Research page
+
+.lcps-research {
+  p {
+    text-align: left;
+  }
+
+  // Intro box (the lab site's "mission" box)
+  .lcps-mission {
+    margin: 0.5rem 0 1.5rem;
+    padding: 1.25rem 1.5rem;
+    border-radius: 0.75rem;
+    border-left: 4px solid $lcps-blue;
+    background: var(--lcps-surface);
+
+    p {
+      margin: 0;
+      font-size: 1.12rem;
+      line-height: 1.6;
+      color: var(--lcps-heading);
+    }
+  }
+
+  h2.lcps-section {
+    margin: 2.5rem 0 0.75rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 2px solid $lcps-blue;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--lcps-heading);
+  }
+
+  .lcps-lead {
+    color: var(--lcps-muted);
+    margin-bottom: 0.5rem;
+  }
+}
+
+.lcps-grid {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.lcps-grid-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.lcps-grid-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 767.98px) {
+  .lcps-grid-2,
+  .lcps-grid-3 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.lcps-card {
+  padding: 1rem 1.1rem 1.05rem;
+  border-radius: 0.6rem;
+  background: var(--lcps-card-bg);
+  border: 1px solid var(--lcps-card-border);
+  border-left: 4px solid var(--c);
+  background-image: linear-gradient(90deg, color-mix(in srgb, var(--c) 6%, transparent), transparent 60%);
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 22px rgba(15, 45, 82, 0.09);
+  }
+
+  h4 {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin: 0 0 0.45rem;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--lcps-heading);
+
+    i {
+      flex: none;
+      display: grid;
+      place-items: center;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      background: var(--c);
+      color: #ffffff;
+      font-size: 0.85rem;
+    }
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--lcps-muted);
+  }
+}
+
+// Title-only cards (the Research page lists), compact so the page fits one screen
+.lcps-card-compact {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+
+  h4 {
+    margin: 0;
+    gap: 0.55rem;
+    font-size: 0.9rem;
+
+    i {
+      width: 1.65rem;
+      height: 1.65rem;
+      font-size: 0.75rem;
+    }
+  }
+}
+
+.lcps-grid-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+@media (max-width: 991.98px) {
+  .lcps-grid-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575.98px) {
+  .lcps-grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Research page: tighter spacing between the intro, sections and the lab pill
+.lcps-research:has(.lcps-card-compact) {
+  .lcps-mission {
+    margin: 0 0 0.5rem;
+    padding: 0.9rem 1.25rem;
+
+    p {
+      font-size: 1.05rem;
+    }
+  }
+
+  h2.lcps-section {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 1.35rem;
+  }
+
+  .lcps-lead {
+    margin-bottom: 0.25rem;
+  }
+
+  .lcps-grid {
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+}
+
+.lcps-research:has(.lcps-card-compact) + .lab-pill-row {
+  margin: 1.5rem 0 0.5rem;
+}
+
+.lcps-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+
+  span {
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.55rem;
+    border-radius: 0.3rem;
+    color: var(--c);
+    background: color-mix(in srgb, var(--c) 12%, transparent);
+  }
+}
+
+html[data-theme="dark"] .lcps-tags span {
+  color: color-mix(in srgb, var(--c) 55%, white);
+  background: color-mix(in srgb, var(--c) 25%, transparent);
+}
+
+// Teaching: course card with its details and a link to TISS
+.lcps-course {
+  padding: 1.2rem 1.3rem;
+
+  h4 {
+    font-size: 1.15rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .lcps-course-foot {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+}
+
+.lcps-teaching-note {
+  margin-top: 1.5rem;
+}
+
+/* --------------------------------------------------------------- Buttons -- */
+
+.lcps-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.05rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  border: 1.5px solid transparent;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    transform 0.15s ease;
+
+  &:hover {
+    text-decoration: none;
+    transform: translateY(-1px);
+  }
+
+  i {
+    font-size: 0.8em;
+  }
+}
+
+.lcps-btn-outline {
+  color: var(--lcps-heading) !important;
+  border-color: color-mix(in srgb, #{$lcps-blue} 40%, transparent);
+  background: var(--lcps-card-bg);
+
+  i {
+    color: var(--global-theme-color);
+  }
+
+  &:hover {
+    border-color: $lcps-blue;
+    background: var(--lcps-surface);
+  }
+}
+
+/* -------------------------------------------------------- Home: sidebar -- */
+// Profile photo, name and address in the lab's colours
+
+.about-sidebar-header img.rounded-circle {
+  border: 3px solid $lcps-blue;
+  padding: 2px;
+  background: var(--global-bg-color);
+  box-shadow: 0 4px 14px rgba(15, 45, 82, 0.15) !important;
+}
+
+.about-sidebar .about-name {
+  color: var(--lcps-heading);
+}
+
+.about-sidebar .about-subtitle {
+  color: var(--global-theme-color);
+  font-weight: 600;
+}

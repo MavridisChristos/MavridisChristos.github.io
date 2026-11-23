@@ -80,6 +80,21 @@
                     {% endfor %}
                   </div>
                 </li>
+              {% elsif p.nav_url %}
+                <!-- External link (e.g. the lab website) -->
+                <li class="nav-item nav-external{% if p.nav_class %} {{ p.nav_class }}{% endif %}">
+                  <a class="nav-link" href="{{ p.nav_url }}">
+                    {%- if p.nav_logo -%}
+                      <img src="{{ p.nav_logo | relative_url }}" alt="{{ p.title }}" class="nav-logo{% if p.nav_logo_dark %} logo-light{% endif %}">
+                      {%- if p.nav_logo_dark -%}
+                        <img src="{{ p.nav_logo_dark | relative_url }}" alt="{{ p.title }}" class="nav-logo logo-dark">
+                      {%- endif -%}
+                    {%- else -%}
+                      {{- p.title -}}
+                    {%- endif -%}
+                    <i class="fa-solid fa-arrow-up-right-from-square nav-external-icon" aria-hidden="true"></i>
+                  </a>
+                </li>
               {% else %}
                 {% assign parent_link = p.permalink | remove: 'index.html' %}
                 <li class="nav-item {% if page.url contains parent_link %}active{% endif %}">

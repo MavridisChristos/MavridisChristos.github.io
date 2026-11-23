@@ -9,9 +9,7 @@ last_name: Mavridis
 email:
 description: >
   Research Portfolio, Christos Mavridis, TU Wien.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: # credits are at the end of the home page (_pages/about.md)
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website, Christos, Mavridis, UMD, KTH, PhD, John, Baras, Kostas, Kyriakopoulos, Karl, Henrik, Johansson  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -19,7 +17,7 @@ icon: profile_pic.png # the emoji used as the favicon (alternatively, provide im
 
 url: https://MavridisChristos.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # the build date is shown at the end of the home page instead
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -96,7 +94,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # Christos-Mavridis-2
-scholar_userid: msjXTH4AAAAJ&hl
+scholar_userid: msjXTH4AAAAJ
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -372,8 +370,9 @@ external_links:
   enabled: true
   rel: external nofollow noopener
   target: _blank
-  exclude:
+  exclude: # regex patterns; these links open in the same tab
     - https://informatics.tuwien.ac.at/people/christos-mavridis
+    - 'https://learncps\.eu.*' # the lab website
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
