@@ -6,8 +6,7 @@ description:
 nav: true
 nav_order: 6
 nav_url: https://learncps.eu
-nav_logo: /assets/img/learnCPS-full-transparent.png
-nav_logo_dark: /assets/img/learnCPS-full-night-transparent.png
+nav_logo: /assets/img/learnCPS-full-night-transparent.png # white logo on the navy navbar
 redirect: https://learncps.eu
 redirect_delay: 0
 sitemap: false

@@ -58,6 +58,155 @@ html[data-theme="dark"] {
   opacity: 0.6;
 }
 
+// Navy navbar, as on the lab site (white text; the LearnCPS item uses the white logo)
+.navbar.navbar-light {
+  opacity: 1;
+  background-color: $lcps-navy;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 2px 14px rgba(10, 33, 64, 0.18);
+
+  // site name: the theme colours the bold first name separately, so cover it too
+  .navbar-brand,
+  .navbar-brand:hover,
+  .navbar-brand span,
+  .navbar-brand:hover span {
+    color: #ffffff !important;
+  }
+
+  .navbar-nav {
+    align-items: center;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    position: relative;
+    color: rgba(255, 255, 255, 0.78);
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.01em;
+    padding: 0.5rem 0.9rem;
+    transition: color 0.15s ease;
+
+    // sky-blue underline on hover and on the current page
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0.9rem;
+      right: 0.9rem;
+      bottom: 0.15rem;
+      height: 2px;
+      border-radius: 2px;
+      background: $lcps-sky;
+      transform: scaleX(0);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: #ffffff;
+
+      &::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    color: #ffffff;
+    font-weight: 600;
+
+    &::after {
+      transform: scaleX(1);
+    }
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .nav-external-icon {
+    color: $lcps-sky;
+  }
+
+  .toggle-container {
+    margin-left: 0.5rem;
+    padding-left: 0.75rem;
+    border-left: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  #light-toggle {
+    color: rgba(255, 255, 255, 0.85);
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  // menu button (phones): thicker white bars on a faint square so it reads as a button
+  .navbar-toggler {
+    border: 0;
+    padding: 0.45rem 0.5rem;
+    border-radius: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+
+    .icon-bar {
+      width: 24px;
+      height: 2.5px;
+      margin-bottom: 5px;
+      border-radius: 2px;
+      background-color: #ffffff;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
+
+html[data-theme="dark"] .navbar.navbar-light {
+  background-color: $lcps-navy-deep;
+}
+
+// Collapsed (mobile) menu: left-aligned links on the navy panel
+@media (max-width: 575.98px) {
+  .navbar.navbar-light .navbar-collapse {
+    text-align: left !important;
+
+    .navbar-nav {
+      align-items: stretch;
+      padding: 0.5rem 0 0.75rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      margin-top: 0.25rem;
+    }
+
+    .nav-link {
+      padding: 0.6rem 0.25rem;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    .nav-item.active > .nav-link {
+      color: $lcps-sky;
+    }
+
+    .toggle-container {
+      margin: 0.25rem 0 0;
+      padding: 0.5rem 0 0;
+      border-left: 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
 /* ---------------------------------------------------------------- Footer -- */
 
 footer.fixed-bottom a,
@@ -677,4 +826,102 @@ html[data-theme="dark"] .lcps-tags span {
 .about-sidebar .about-subtitle {
   color: var(--global-theme-color);
   font-weight: 600;
+}
+
+// Social icons in navy, lab blue on hover
+.social .contact-icons a {
+  i::before {
+    color: var(--lcps-heading);
+  }
+
+  &:hover i::before {
+    color: var(--global-theme-color);
+  }
+}
+
+/* --------------------------------------------------------- Home: mobile -- */
+
+@media (max-width: 767.98px) {
+  // thinner ring on the small photo
+  .about-sidebar-header img.rounded-circle {
+    border-width: 2px;
+    padding: 1px;
+  }
+
+  // less space between the profile and the bio
+  .about-sidebar-col {
+    margin-bottom: 0.75rem;
+  }
+
+  .about-sidebar-header {
+    margin-bottom: 0.5rem;
+  }
+
+  .about-sidebar-contact {
+    align-items: center;
+  }
+
+  // "Contact" button that opens the address, email and phone
+  .address-toggle summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    width: auto;
+    padding: 0.2rem 0.7rem;
+    border-radius: 999px;
+    border: 1.5px solid color-mix(in srgb, #{$lcps-blue} 40%, transparent);
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--lcps-heading);
+
+    i {
+      font-size: 0.75rem;
+      color: var(--global-theme-color);
+    }
+
+    i.address-toggle-chevron {
+      font-size: 0.6rem;
+    }
+
+    &:hover {
+      color: var(--lcps-heading);
+      border-color: $lcps-blue;
+    }
+
+    // no browser highlight box after a tap; keep a ring for keyboard users
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+
+  .address-toggle[open] summary i:not(.address-toggle-chevron) {
+    transform: none;
+  }
+
+  .address-toggle .address {
+    margin-top: 0.5rem;
+  }
+}
+
+/* ------------------------------------------------------- Navbar: mobile -- */
+
+@media (max-width: 575.98px) {
+  // slightly shorter navy bar, and less empty space below it
+  .navbar.navbar-light {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+
+  body.fixed-top-nav {
+    padding-top: 48px;
+  }
+
+  .container.mt-5[role="main"] {
+    margin-top: 1.5rem !important;
+  }
 }
